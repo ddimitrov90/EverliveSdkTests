@@ -7,120 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0317E2B940FAC37E5635B0D664C96A1B /* DeleteByIdHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6267D07DD6DE64ED6214929D3A8AB9E /* DeleteByIdHandler.swift */; };
-		04531093E0A74709D03128D2FDE9EA7C /* EverliveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F86B508AE6E4DCC27122F0C1462990F /* EverliveSDK-dummy.m */; };
-		056E25F48CEB52C2E2985A4C96189BAB /* EVWorkaroundHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2DD07965523867413506C71E8C979 /* EVWorkaroundHelpers.swift */; };
-		06D714BD7D3B173F173E9CFCE73EE783 /* MultipleExpandDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52BC81255F750CBD0B8595C928A2BE6 /* MultipleExpandDefinition.swift */; };
-		0913BCA17DE8F5A2C8120C76C1AA644D /* EVReflection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E07066953FE7205353AE6EBC1AD43A /* EVReflection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B459DBB610113F9D76E61EBFB78596 /* Error.swift */; };
-		09E9B40BAC747BA809350BF59848328B /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A375F3FB8F948B232684E621291A26 /* AlamofireExtensions.swift */; };
-		0DD1C6482D8E6D6C2392708F0F37609B /* UpdateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A77F796613587222E4DD9784E0AEEBD /* UpdateObject.swift */; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72698FEA70A000BE2BE6D6ED417984 /* Timeline.swift */; };
+		01B3D8329F2B8BAA2C395EE797A6680C /* CurrentDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33C9A4B4E149034D7E012A1CCF6EC94 /* CurrentDevice.swift */; };
+		04520AE05092A57E298D5AE59682A4D0 /* GetByFilterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9B1278B6581A9FF3E6224613B2ED8 /* GetByFilterHandler.swift */; };
+		056E25F48CEB52C2E2985A4C96189BAB /* EVWorkaroundHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997082027FCCEA03E9B4E1EF5B5D2C2C /* EVWorkaroundHelpers.swift */; };
+		07EC03E72F732423A60AE493BE23D109 /* CreateSingleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03283ED3C1C2A7810B34135FB361A841 /* CreateSingleHandler.swift */; };
+		0913BCA17DE8F5A2C8120C76C1AA644D /* EVReflection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3259F4DA4926EF329382F6C71F52ADAD /* EVReflection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DDAC0FBBB5DABAABC65AEA50663795 /* Error.swift */; };
+		0A5807CBD19AE61EF6783F999EDC2731 /* LoginMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F228B0C935D4026A8322287832B429 /* LoginMethod.swift */; };
+		0E070AC3F4C30BAF5D89B21F74951525 /* DataItemMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1756D5FE9287F2B815F4C6B1EFA99B /* DataItemMetadata.swift */; };
+		0E5020720D06AA1F2C0B829F63AD5049 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47FB596EA2D0294706862FBB4BA66EC /* DataHandler.swift */; };
+		0E7FCF9E4703CF7285278C970290818F /* UploadFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DACB640F5EE804C7E94548B5AA97A /* UploadFileHandler.swift */; };
+		10B02DCAFC693215A537FE4A8A66D1F8 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBC92CF06B6ED8AF8260666E2F20BA /* PushNotification.swift */; };
+		11BF4934820E35BA90E228E29EDDD84E /* ValueCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE138711C012ABB8BEC6AB044F0C8117 /* ValueCondition.swift */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F7AEA4FCF41BEF8391BE86E0B27143 /* Timeline.swift */; };
 		161D76EACC68D33E73E1E60B68E375CB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9395EA04ECB8C7A190ADBA71ACC753A8 /* Alamofire.framework */; };
-		1EF01B46C373F9AFC2AAF0A86F3A1EF1 /* EVReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A3AF44BC719EA7EFE42D810382C57 /* EVReflection.swift */; };
-		1F868C8DCCE7F7CB3863356E5E385F8C /* PermissionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A3A00BBE7041A12113A53E7059903 /* PermissionsInfo.swift */; };
-		23B9AD213D8A2AA7AE3AC20F9E44F636 /* PropertyObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBCF83F63F2087DF803D7E98030ABEE /* PropertyObservable.swift */; };
+		19D5FB64D3BDF963DC1926CAB1053482 /* ExpandDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F8E631D45C8075851C60D0A0570D25 /* ExpandDefinition.swift */; };
+		1E5D8FA5B0B7D682938E7A292569D91A /* UploadFileResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D15E1A96098C8477511E4CEDD10BF /* UploadFileResult.swift */; };
+		1EF01B46C373F9AFC2AAF0A86F3A1EF1 /* EVReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE62A7E632374FA4A341BCB2C66EC5 /* EVReflection.swift */; };
+		2099C140B14CE1413343F285E5CE42BE /* FilesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8F03D22A1852900B1C4C1236A3868C /* FilesHandler.swift */; };
+		22DAE1FF8A7F80D7E18E4FC7E4AC863C /* EverliveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DD4755E26CEB0392DF359D8F6008DF /* EverliveApp.swift */; };
 		23C3E32EA191F2A56F42362766E33CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61096CD137C038EA2AB8357544870C /* Foundation.framework */; };
-		25E76C4CFEFB7BB890870D050F7369B4 /* EverliveCompoundQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679B8B318434E58B567528DBD5CF403A /* EverliveCompoundQuery.swift */; };
-		28E6A46249E5D977A0F9A1C81B27F1C3 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36894AE5ED482DAD7C15F78A9D921AC0 /* PushNotification.swift */; };
-		2C281F9D8C67F9CDCBC0E69118272163 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59495B18190FE766AB71FB67BED89533 /* Sorting.swift */; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116CD4BEDFCDA239245623A9F647AD4A /* Validation.swift */; };
-		2E9B4F01993C3D2C0CF87E222E30647B /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96046C4DBE52B5AB63E83854C115E882 /* GeoPoint.swift */; };
+		27235E44C3F89219CD2464E5AC05846F /* Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A99953C826BD8E18B1250DE60DD7C7 /* Paging.swift */; };
+		28A559465BAA783224361FCE49E05699 /* UpdateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC48A703C72C301DD514ECA20D093DCE /* UpdateObject.swift */; };
+		29140B5D29FE3A444EFA9CAF3D1801DA /* UpdateByIdHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4573A8C15BF3134C794D266EEE2CC4FC /* UpdateByIdHandler.swift */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B1E223A27E485718621FAE75889B33 /* Validation.swift */; };
 		2F09B80670B93FA643250E93B1222354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61096CD137C038EA2AB8357544870C /* Foundation.framework */; };
-		2F6697545B1B089627D72335117321DE /* GetCountHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE5DE698FE294A0A807D4CA090F75C /* GetCountHandler.swift */; };
-		309F39C0316B2CADAEF79596B6377112 /* QueryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E208E4933908CC80CC8DA8C4EE0EF /* QueryProtocol.swift */; };
-		31E8E4FD06C017ABCFF7C673B011C86B /* UpdateResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC00BEF7A30C2BC1C06AD2A05B94728 /* UpdateResult.swift */; };
-		338C3F0DF50063ECE857BE261AFEC931 /* UpdateByFilterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37DA892546F75E2D0D4B782BE35A28 /* UpdateByFilterHandler.swift */; };
-		34CA50C998EF94F18921FC7FF16853D3 /* EVObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF23BBEF5A47AD34D6A4ED05112358 /* EVObject.swift */; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7190498126BADAFF11D0098F722142 /* NetworkReachabilityManager.swift */; };
+		34CA50C998EF94F18921FC7FF16853D3 /* EVObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C752FC6A978A83D73699B8AFA751397D /* EVObject.swift */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB30A98B026E30BF83FA086A41BD1F4 /* NetworkReachabilityManager.swift */; };
+		355D637E84C761B14CF7DFF0016E81C2 /* MasterKeyLoginMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401F4D724F0F80A9E11019B4703D3E3D /* MasterKeyLoginMethod.swift */; };
+		378FC6F95E057CCFA636BA507FA5995B /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2919F11F441A9F59832F6C21C20910E1 /* AuthenticationHandler.swift */; };
 		3843F615C88A1803B051E2895D709ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61096CD137C038EA2AB8357544870C /* Foundation.framework */; };
-		39DE0B966CC5508B59EE6FC04DF56C59 /* UploadFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02BAA68AC02AD4EB1CDBAF77F78330D /* UploadFileHandler.swift */; };
-		3AD88130DF7473854137021BEACB111F /* DataItemMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE12934E04C220B6E840433024A254 /* DataItemMetadata.swift */; };
-		3D1BDA7607FB68E7935CE251A0325B2F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDABF0CF5E5BD7B8CC9A7352CDEA51 /* SwiftyJSON-dummy.m */; };
-		3E1CF69C78DD08FD18165FED9C35115E /* EverliveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAB4B6129E68E77271770E83EE56D57 /* EverliveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E276E523D2CB03AAA1D2A631A97AB8 /* ResponseSerialization.swift */; };
-		3F938F46A71843BCF04110C18C4FE47A /* ExpandDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB588597D9DFACCC876CFB813D2B770E /* ExpandDefinition.swift */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111679C593BCB2458771F3A5499C4DD7 /* Manager.swift */; };
+		3B864D19F6E57D0C0F767B94811FA9A8 /* GetByIdHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA707B50B73113F2700B3B9B7739F2C /* GetByIdHandler.swift */; };
+		3D1BDA7607FB68E7935CE251A0325B2F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C28B3F91230B2F313DB4D6CC939F8D /* SwiftyJSON-dummy.m */; };
+		3E1CF69C78DD08FD18165FED9C35115E /* EverliveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FB286B6897A4C797185AB9FBB30E35 /* EverliveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D95D6930B1274C2E74C863CE93F0BD /* ResponseSerialization.swift */; };
+		4027944808DAF50F8C2024F2C596D9E4 /* DeleteAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE513CE690C6615262302AC55312DF /* DeleteAll.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741BBC54778B89E95485B64037678AA7 /* Manager.swift */; };
 		42312D7254F79EC64577EF10483F722E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61096CD137C038EA2AB8357544870C /* Foundation.framework */; };
-		450E5DAC923E4BA6518B13D1AC03E691 /* UsersGenericHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138E41E1EEAAD8390DAD658E091D74D /* UsersGenericHandler.swift */; };
-		46606D021804F35C0C3327C400489CCC /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C46701347653DB6FC32E4418E8F60 /* DataItem.swift */; };
-		468773729CD842EE9FF18193DA71D6DE /* UpdateByIdHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66281A6A0A0E867C0B9AE04E29517BD /* UpdateByIdHandler.swift */; };
-		4D778408C5767950C6FF60E2C25FDA0E /* PushDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91C396CA77ABFD95E911DBBC6ED0BDC /* PushDevice.swift */; };
-		509EB26DDF104DCCD2ADDCAA72FF4B98 /* CurrentDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52847B3678931C60BA55C88E64F519BB /* CurrentDevice.swift */; };
-		59ABD4A985F2A43CD7A36877B8505646 /* EverliveQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A3D9BEA234FDDB18976C755AB03F5 /* EverliveQuery.swift */; };
-		5B372F0BA371C222453169CC3EB1C0E0 /* DeleteResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08858C1B13CDDDEE0C4F266DCA25FD37 /* DeleteResult.swift */; };
-		5BA0723303D30B87426E067ABDE26D4D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7532FD5441F9805887DD8276956B5 /* File.swift */; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391AD4BF13033C5928277C6093D55CC /* Upload.swift */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136293D40CE8393501409C01DCAC3173 /* Download.swift */; };
-		6011F80638EBF34B95999F0D8BAA2B6B /* PushHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA99D2180A05BAA741FAADC0867E80 /* PushHandler.swift */; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2CD25ED02AC665F62004410C83D218 /* Response.swift */; };
+		456A2B0331DF9C03DC7952AF36024C19 /* EverliveConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908675E75D2E001EC1C93D94EE6EF68 /* EverliveConnection.swift */; };
+		46DE73B2455D2F7509FD8F1D1459BA00 /* EverliveQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA18842BE6E109ACB810857E764FF25 /* EverliveQuery.swift */; };
+		470659941C20EC51421A53EA6BE44C6D /* RegexCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D98CD2968D9B55E6D94B4B5C5D7289 /* RegexCondition.swift */; };
+		477FC31F30C34ABE64CA36A5A9AC56C8 /* DeleteByIdHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F7C66DC69973BADB7BFBA030426E8 /* DeleteByIdHandler.swift */; };
+		4797152C7CA7803618F6DF61704A686C /* EVReflectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25769850A90BE0E3C2B476B249394FB6 /* EVReflectionExtensions.swift */; };
+		557DFACED8DB257300BFF016925F49C6 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC395B15EE0C0497F8D7AE2CED1D80 /* AccessToken.swift */; };
+		584F2453E5CB10A35066DBD8101E5B8B /* MultipleExpandDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD55B3BD4AFB05A549B898715C56DD /* MultipleExpandDefinition.swift */; };
+		5B26BAEADEEEFBDFC2822ED299399942 /* DownloadFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90974B8EFE868EA4735E3314B89E3FEA /* DownloadFileHandler.swift */; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383267BE63CF50BD6E906A22B1386C85 /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F9F96CE787E6E85E2DF7BB136B0523 /* Download.swift */; };
+		5E334D565B34452C35F5726A832BBBF8 /* PropertyObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE968414AC59C9969C3AB391EB441684 /* PropertyObservable.swift */; };
+		625F38EFD8C910BCB11BF6793F13DED9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0CEC3D05A5C928CA4FC13D7E5906F /* Constants.swift */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6D680B4B142C319F0178BCD694B24 /* Response.swift */; };
 		639A848D0277FA9F7623CFDFBF065482 /* Pods-EverliveSdkTestsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA36F14D06DC6D1CD8C06151BC2134F6 /* Pods-EverliveSdkTestsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66246BA31CD1D2FD85FD2EC8BF7F5989 /* UserLoginMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7316A2A11A2595A03CE66490461994 /* UserLoginMethod.swift */; };
-		6723013AA39F9D1FEA8309F54BCBDE6C /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44BF39C718E3539F623504D76EDA413 /* AccessToken.swift */; };
+		6A12C8DE6723A89B1BE9EE8F8A62A7BC /* FilterCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8272D4D4CADDF1006B2701E2A3B4C9A /* FilterCondition.swift */; };
+		6B148B6DA41FD29144DC63CC600747D3 /* EverliveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC35C0893A6C5240E2B58A5705A7E5F3 /* EverliveSDK-dummy.m */; };
 		6C000E254AEA79884076882C5F8569F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61096CD137C038EA2AB8357544870C /* Foundation.framework */; };
-		6D07B9821A09AB3E49572ABE154156CA /* SingleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA319B39F1E133A1568AD5C249BE2C /* SingleResult.swift */; };
-		6E1E6FD4663EB2A00EDA3BAE868A7D75 /* DeleteAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5D2CFB70E56E56FD7D6F24D7AEE7 /* DeleteAll.swift */; };
-		6E60BE1308DBFD1EBF7BCE42FC71EC35 /* DevicesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA4508840B22D34E03671F69789927 /* DevicesHandler.swift */; };
-		70498BD2DE8D0C062E838275B1799476 /* ResultBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D330B7344A44D621CCFFEA48BCFE3 /* ResultBase.swift */; };
-		746ADDD8A6DEF26D82A01FBB72A7BFC3 /* GetByFilterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12723653DFEFC967FBAF368EC20E2CE /* GetByFilterHandler.swift */; };
-		76E6E19091D81E7BC6626E2726224637 /* RegexCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF335B9ADC080627A1CAB8E91A504872 /* RegexCondition.swift */; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DA4F84F31F14AF645B0DAEBB997EF /* ServerTrustPolicy.swift */; };
-		7E09F28EA9A88CD01D1BBF32B8AB5BE1 /* FilterCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1743542CA20D076E7F1A98B1C5D4640 /* FilterCondition.swift */; };
-		815FFCEA78B0D29778A5A23B9422D90F /* MasterKeyLoginMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7972F55D6565021919789CFA9B9008B8 /* MasterKeyLoginMethod.swift */; };
-		83F1E022BFE1F07EBD1D7C3230A980CC /* BaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D33BD564CF79C3C38369D44CCDDAF /* BaseHandler.swift */; };
-		84E8324B3C8EEA09B4F1EE16171F40C3 /* EverliveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B9CE6521D8E7D9C0A4B0251FA77F45 /* EverliveApp.swift */; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C474C59EC62068D768AC61EF0270F /* Alamofire.swift */; };
-		8ECB942FF7595D6716699B30E49C225C /* EVExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2399F497361023F1AB264679C5A85 /* EVExtensions.swift */; };
-		8FAC8ECEF5F5D27D95911FF9F0AE36F5 /* EVReflection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C29A2A6E50BF9F44A5C6AF0BDC4AAF3B /* EVReflection-dummy.m */; };
-		90991CA9110809B276337ECE35C26E10 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB857957EE2368CB2A8D72813BDD5A7E /* DataHandler.swift */; };
+		705389E70CDBA95E3EF0C750001EDFB9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0662B8C5C5A37329523332C7E103A4 /* File.swift */; };
+		72081FD3099907F38F60338CA9C3A8D9 /* LogoutHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C41CDFB8A43829811F0A64B207342 /* LogoutHandler.swift */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EC252FAB2F9B5AC96E6A6D60F3DD5 /* ServerTrustPolicy.swift */; };
+		828BD9F9F94F7C04B9EF5B9B7A963910 /* UserLoginMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C18FE4B3FAE95CF1A9756737974F6 /* UserLoginMethod.swift */; };
+		857E0228C1EE7660B9D4525F35BE8B48 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561A2825782184AFEAFAE6B8E6718D9 /* LoginHandler.swift */; };
+		870B335964F76AA1740BD3CF4A43E639 /* DevicesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E40ED4F6E8B5E6F7D04A2069754E3A /* DevicesHandler.swift */; };
+		88C6B112E4A06FC19652666614E881E2 /* GenericResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0266E5291A4E656B78D675B7DD0D7C05 /* GenericResult.swift */; };
+		8B8B5E6B6BC91BA865DB18648DF0731D /* QueryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B540C540ACE443979067CA6EDB96B /* QueryProtocol.swift */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BCC10EF6DDFE9679898019835523F /* Alamofire.swift */; };
+		8ECB942FF7595D6716699B30E49C225C /* EVExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC49E513D0D94E10146D8ABB59C0BD9 /* EVExtensions.swift */; };
+		8FAC8ECEF5F5D27D95911FF9F0AE36F5 /* EVReflection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 619338D9F18B346E46096215B00BC9E6 /* EVReflection-dummy.m */; };
 		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61096CD137C038EA2AB8357544870C /* Foundation.framework */; };
-		920F9071E2F1C9DAD280C0A45B60ED3A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD500ACD8441FE03B3F07C493A4899B /* SwiftyJSON.swift */; };
-		929518EA79FFA8DE4018C135B64E742B /* UsersHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB8ACF2E41CE4B6CA326D1058760FF /* UsersHandler.swift */; };
-		93C985E1EC5F3CBA3DFC4A99ADEDBCDC /* CreateBaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090605ECFD5E4B1DC0EEB198837205F2 /* CreateBaseResult.swift */; };
-		93F6320E7748AA614FC2516DA268C29A /* MultipleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683CA062C2036BD1FDB04EB097AC34D4 /* MultipleResult.swift */; };
-		9402B06D67A6A54C89AE18DDF8DE173C /* UpdateModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419D5078BE7578E7DF390A024294CA17 /* UpdateModifier.swift */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E2F9CCE06A8E89A2E66AFBF66E5E15 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		960842C631999B38AC20E679CC2152BD /* EverliveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F10ECD8841B0E94DFEB4B7F7D071E5 /* EverliveRequest.swift */; };
-		9D0099FAF67E6C38B0D4A0B6BDC17F3E /* UploadFileResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC1EF90FA9B15A1389E37F98C9E4B0 /* UploadFileResult.swift */; };
-		9EE832117F2AE2CF41C0A1132ACA593A /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3044812CEE971DAA52CEB6760D6DAA1D /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE94074E1E0DE3939021590EC00E6DF5 /* Result.swift */; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B84179245D7C90562BE2C113A1DB67 /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD926E872E154BC527DA22062298428 /* Stream.swift */; };
-		B4C30158649376D57AECF7FD9BA49BAC /* EVReflectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7154F3B7BD645EA7CBBD327BD8C0D7DF /* EVReflectionExtensions.swift */; };
+		920F9071E2F1C9DAD280C0A45B60ED3A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC46BCF01B953A2B9AF49C06107FF87 /* SwiftyJSON.swift */; };
+		92B913CC29FA486A8858F473EACC8B24 /* UpdateResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A8AFFC21B7478C323385A7277BDB61 /* UpdateResult.swift */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F517AAB1575CA6CAFA7D59DBB4A7296 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965B65ABAB933EA4138241AAA86538C1 /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CA3BC8185D852790771E031B4C6E3 /* FilterProtocol.swift */; };
+		9EE832117F2AE2CF41C0A1132ACA593A /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E9674F42D8A2DE7AC4A3C3CA154F73 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AB63337F3F2415DFD346921090BF8A /* PermissionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39337A16A8B21914142AC75553D46E8D /* PermissionsInfo.swift */; };
+		A6A66848D06F16379E16B0849F36A4C5 /* UpdateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF3DF6B6E743BB5EE2A7CAA987FFFF /* UpdateField.swift */; };
+		A8FCD7B0CD999FACD48E70B67C653CF4 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EA84796C8F9437324DC2F399B32C2 /* DataItem.swift */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A19E10443AF55ADAD8B37B4BE8E2428 /* Result.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E356B249C981972724553FCAD3A13932 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED2BD9FC18A5EDB84DC8C7E560F682A /* Stream.swift */; };
+		AEB7DF03F244CFB44835FDF2DED568EB /* DeleteResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4F5E20DDF5E37B0F239B0ED479FF39 /* DeleteResult.swift */; };
+		B425049665865B2DAB7A09C2F3FE077A /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FCCC084C76182565F31F587D2F81AB /* GeoPoint.swift */; };
+		B464B0856AE71F4E344640CF4387AD76 /* CreateBaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A91901889F32E8D2EA7930ACB567E /* CreateBaseResult.swift */; };
 		B4D5402EA62114626AB2003C230ABB5B /* Pods-EverliveSdkTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8EE3D5273E86DDCE6379D719C5129B /* Pods-EverliveSdkTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B545F6AE4B8BFD5BC2A161C10C71FF27 /* UpdateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198061BE67D7A91022EFD5EE48FF560B /* UpdateField.swift */; };
-		B59CC8DE7223CC280A9758C6F94B1CB9 /* NotificationsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39B9AB74874AC29675F642ED201227 /* NotificationsHandler.swift */; };
-		B7CF66AE3AA78BEAA1BF41E29C3A5032 /* EverliveError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE43270C8FDFA7DC48BDC850A87705EE /* EverliveError.swift */; };
+		B5E3860F7D74981EEB527880C4091EEF /* EverliveResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1DD595B469B881503CB5FFFC12359 /* EverliveResponse.swift */; };
+		B61FC1F98C408A41FAEAFAFDC741C795 /* EverliveError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0EF36A40077FD7266B072B7D21540 /* EverliveError.swift */; };
+		B8CE5A065E86D30668FCE72EAC59EFFB /* PushDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E94B456A78CDB8ACE680637416666B /* PushDevice.swift */; };
+		B8E521E4F1EA36692521E26C8BC3D74B /* UpdateModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE206CAFA37628E92948E2EB566EA8 /* UpdateModifier.swift */; };
 		BB7FD4744D9C9B6053B79C0CD4EEABE3 /* EVReflection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1C05E52671D8332CBACCB634E0FBD2 /* EVReflection.framework */; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F80470AEF7388CFA86F2CB490F132 /* Notifications.swift */; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57404527A4B039DFDB06D146796BCA /* ParameterEncoding.swift */; };
-		C3A8F28632759053DFC9A0CD4489E763 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041851925340BFD35453A24C2C8538D2 /* User.swift */; };
-		C4108FE8975F0AD041E94490C5191D3E /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B9AED76CAEC39C51881C5F6E480228 /* Updateable.swift */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B496E3476293DC4263CB58D65F2E4 /* MultipartFormData.swift */; };
-		C8CB59FA198620EA659A51CAD8CEFA4F /* CreateMultipleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54746069195162FBA0A1EFEDF65AB71 /* CreateMultipleHandler.swift */; };
-		CAFD11BC2F235095776462823828FAD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06C4F9CC51DE2F08AE962E4087B81B8 /* Constants.swift */; };
-		CE3DA58EE4D6FB9EB7AC1F3D32650445 /* Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7068D9B13206C0630B4DBEB329777A /* Paging.swift */; };
-		D170AAE59A3166CD36C28BCB66536617 /* EverliveResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF20517BEB61181194EAE6E1A2A2E4 /* EverliveResponse.swift */; };
-		D4E18148BAAB78C9C04339A4ADAF029D /* DownloadFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F483C02E8940CF070F22D6B2D6DA87 /* DownloadFileHandler.swift */; };
-		D89F17181807AC350FE50D3E7CFA72FD /* GetAllHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B4BDD8044CD69BC8FA5999AD2C28B7 /* GetAllHandler.swift */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C69CC31CA078F409978A2D13CBD5A /* Notifications.swift */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6955CD444158AE3A0F596EBE6D6466F7 /* ParameterEncoding.swift */; };
+		C1E6751DC7D7F87C4C6BE2D4AD57EB3F /* UsersHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F78711BB5A35A6BF7A566EB7D007967 /* UsersHandler.swift */; };
+		C3BE8168631D635BF5D5B546B477CDD1 /* GenericRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C43EDCB105D583D9B003D0469050065 /* GenericRequestHandler.swift */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2D41C72406FDC8258628802BC3D26 /* MultipartFormData.swift */; };
+		C94BF2E0DE968D003113100A10C4507D /* UpdateBaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9170750CF2063DB2618885E8AB7D4E02 /* UpdateBaseHandler.swift */; };
+		CAD528A0713ED369FEF765CF0E330DE7 /* BaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA227ECB87D21DDED10503CAC441DF /* BaseHandler.swift */; };
+		CE671748263FFB6C9A77D40BAB417524 /* MultipleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FADE52D28B564EF9A4AAF99384BFBC0 /* MultipleResult.swift */; };
+		CF1ADF91D1AC03F48F8B71040ADACBCE /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6CCB67BCDD17AD99EEFB2D55DB790D /* AlamofireExtensions.swift */; };
+		CF8D389A58560DC9C3B98E4FD988F77F /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036D9625AADAC6BBEADBEF8AC19A154 /* Updateable.swift */; };
+		D057B422BB789EF07CA0135DA79D2C8F /* PushHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F989440192E3A2B5164697D8994F /* PushHandler.swift */; };
+		D0B5B62EDE0855B4B970DFF1D8C8865B /* NotificationsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C824D7DC6CB1A9D21227889FF01185 /* NotificationsHandler.swift */; };
+		D370DB2C37CD0A19A6841F074D943D81 /* SingleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DE0068381F7071D121D0B70AC94FA /* SingleResult.swift */; };
+		D5252193DE60C741924B2E24BEFD1105 /* GetCountHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF27BD16C05866546E5A244907FC2A79 /* GetCountHandler.swift */; };
 		D91E62769DA1D639FA58D839C37EB414 /* Pods-EverliveSdkTestsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A936F2229F407D9022B9EA47AD0E034F /* Pods-EverliveSdkTestsTests-dummy.m */; };
-		D978608AFD06192C017D4DDA41817DB0 /* FilesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954099DBAA314CE0EEF6909EC929F7C3 /* FilesHandler.swift */; };
-		DCAD971149AAEE99E96D23751B5D3961 /* EverliveConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3057445DDFEC0CE1DBD0D4C9827707DF /* EverliveConnection.swift */; };
-		DE634408FFF9200DB5C095082E59B223 /* GetByIdHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC20B856B64435A8CB04940AF5BA16 /* GetByIdHandler.swift */; };
-		DFEDD4D931FBC3563863D7D533889A72 /* UpdateBaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05576645F4D9ED91609EC04313B9B891 /* UpdateBaseHandler.swift */; };
-		E52F5D972DE534CA47010A36C8A78255 /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DE1C18B560B8DE08A0C34E197A0E9 /* FilterProtocol.swift */; };
+		DD55518C299C8EC85FEC4D5D5D6200BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D73463DD18B2F7F3A63A9E8DC8C12C /* User.swift */; };
+		E21575D13A6D1DDDF4F73C0E33F65E67 /* GetAllHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D561A258B7E0C07F189B0F1C446006 /* GetAllHandler.swift */; };
+		E4190709A81A1AB02C9A451BF9647991 /* CreateMultipleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9873DC70BE656A595ABC3333F0F8F14 /* CreateMultipleHandler.swift */; };
 		E719A6DD4F361163E9A592789F5E6EDE /* Pods-EverliveSdkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5726083E1B448732356B6896EDA1845F /* Pods-EverliveSdkTests-dummy.m */; };
-		E768C055613577884C1153969128CDA3 /* LoginMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795A7EE7C160D30C2367F3C49C71272 /* LoginMethod.swift */; };
 		E926999C523D70D71B8D1D729733D8E1 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BED555B5B3BE62D1BBB4935904831B /* SwiftyJSON.framework */; };
-		ED95F7E0638EFF5BAEF3EF53BB683225 /* LogoutHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C251B39D859FB760E2F77F2A9D4D6 /* LogoutHandler.swift */; };
-		EEAD924A30A01A7EFF8D7E48397C6610 /* CreateSingleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CD5DC7B7D1E30334114647E2FFB8F4 /* CreateSingleHandler.swift */; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9170EDA7D2ADAE34A9759AFDBF2CC0 /* Request.swift */; };
-		F0E13E85520A4FE7B4A7F13B27596E9A /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA169B62C7AE6F7FB0648B4FCC5E476 /* LoginHandler.swift */; };
-		F188820A954A34FE947E80FD89D176FF /* GenericRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CB67918DCB4D5599C3D9F3D717186 /* GenericRequestHandler.swift */; };
-		F1C8A97B92C35032BACD9CA195B3643C /* ValueCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EC8D61AE6A894C69BCBCA75332C076 /* ValueCondition.swift */; };
+		EA774767ED3A66BFE82D7E8BD5C405AA /* UsersGenericHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACE8DE405F1D7C63B7FAE24B48E660 /* UsersGenericHandler.swift */; };
+		EC7E314CDFFDB9766666DD3FE26CBDEE /* EverliveCompoundQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76F441E3E4021CB38D5387E5D63D346 /* EverliveCompoundQuery.swift */; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB4D2ED079F3E196A99996EEDE2C8D /* Request.swift */; };
+		F198CF1700AD08F8D1AA7CC1C904A27F /* UpdateByFilterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFA1C1CF77824E943F1FE484801C6E6 /* UpdateByFilterHandler.swift */; };
 		F474E2CF5D45DF121FCB56E2BF266DC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A0731E85650A23BC1D1BEC9524A561 /* UIKit.framework */; };
-		F8E738C8080648AA051109C6DA8FD418 /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8FB0769B17790ECF9FDF756603E48 /* AuthenticationHandler.swift */; };
-		FD80FC2CFCA0D7FB60421040E4756789 /* GenericResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44239124D12452E7647E6E0240FF7DA7 /* GenericResult.swift */; };
+		F601F350801402A05EF26A56AEDA030B /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076CEA249D5CE2AFC16F556D4995990 /* Sorting.swift */; };
+		F67DA374172E2E2512034F0358EB8A50 /* EverliveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132BBCF451E32F9E236DEC5D9A84AC05 /* EverliveRequest.swift */; };
+		FCCE8B0D29517BAE54A49AF2F7208D22 /* ResultBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D542AD8D298ADF5294DAE534C28B3801 /* ResultBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,154 +204,154 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F483C02E8940CF070F22D6B2D6DA87 /* DownloadFileHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloadFileHandler.swift; sourceTree = "<group>"; };
-		041851925340BFD35453A24C2C8538D2 /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		05576645F4D9ED91609EC04313B9B891 /* UpdateBaseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpdateBaseHandler.swift; sourceTree = "<group>"; };
-		0652B52A4405C3E3A9B4BDF4FC6526F8 /* EVReflection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVReflection-prefix.pch"; sourceTree = "<group>"; };
-		06E07066953FE7205353AE6EBC1AD43A /* EVReflection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVReflection-umbrella.h"; sourceTree = "<group>"; };
-		08858C1B13CDDDEE0C4F266DCA25FD37 /* DeleteResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeleteResult.swift; sourceTree = "<group>"; };
-		090605ECFD5E4B1DC0EEB198837205F2 /* CreateBaseResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateBaseResult.swift; sourceTree = "<group>"; };
-		0A77F796613587222E4DD9784E0AEEBD /* UpdateObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpdateObject.swift; sourceTree = "<group>"; };
-		0B5C46701347653DB6FC32E4418E8F60 /* DataItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		00AB4D2ED079F3E196A99996EEDE2C8D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		0266E5291A4E656B78D675B7DD0D7C05 /* GenericResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericResult.swift; path = EverliveSDK/GenericResult.swift; sourceTree = "<group>"; };
+		03283ED3C1C2A7810B34135FB361A841 /* CreateSingleHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateSingleHandler.swift; path = EverliveSDK/CreateSingleHandler.swift; sourceTree = "<group>"; };
+		056767C75D6A848AACBF29B09AD752C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D95D6930B1274C2E74C863CE93F0BD /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		0A20F989440192E3A2B5164697D8994F /* PushHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushHandler.swift; path = EverliveSDK/PushHandler.swift; sourceTree = "<group>"; };
+		0C43EDCB105D583D9B003D0469050065 /* GenericRequestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericRequestHandler.swift; path = EverliveSDK/GenericRequestHandler.swift; sourceTree = "<group>"; };
+		0C6A91901889F32E8D2EA7930ACB567E /* CreateBaseResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateBaseResult.swift; path = EverliveSDK/CreateBaseResult.swift; sourceTree = "<group>"; };
 		0D183204775FB7C33634F73CC4222FEA /* Pods-EverliveSdkTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EverliveSdkTests-frameworks.sh"; sourceTree = "<group>"; };
-		0D9170EDA7D2ADAE34A9759AFDBF2CC0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		0DA7532FD5441F9805887DD8276956B5 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		111679C593BCB2458771F3A5499C4DD7 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		1138E41E1EEAAD8390DAD658E091D74D /* UsersGenericHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersGenericHandler.swift; sourceTree = "<group>"; };
-		11459EEEC9EE58D14E552157AF687B9E /* EverliveSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EverliveSDK.modulemap; sourceTree = "<group>"; };
-		116CD4BEDFCDA239245623A9F647AD4A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		0DC46BCF01B953A2B9AF49C06107FF87 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		11BED555B5B3BE62D1BBB4935904831B /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		136293D40CE8393501409C01DCAC3173 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		13B7C153D4123DB74AF9D681786E6B2A /* EverliveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EverliveSDK-prefix.pch"; sourceTree = "<group>"; };
-		195A3AF44BC719EA7EFE42D810382C57 /* EVReflection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVReflection.swift; path = EVReflection/pod/EVReflection.swift; sourceTree = "<group>"; };
-		198061BE67D7A91022EFD5EE48FF560B /* UpdateField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpdateField.swift; sourceTree = "<group>"; };
-		1CE2A926A61751546B68F246F3F72626 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DD926E872E154BC527DA22062298428 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		227CB67918DCB4D5599C3D9F3D717186 /* GenericRequestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GenericRequestHandler.swift; sourceTree = "<group>"; };
-		23CD5DC7B7D1E30334114647E2FFB8F4 /* CreateSingleHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateSingleHandler.swift; sourceTree = "<group>"; };
-		25E2F9CCE06A8E89A2E66AFBF66E5E15 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		132BBCF451E32F9E236DEC5D9A84AC05 /* EverliveRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EverliveRequest.swift; path = EverliveSDK/EverliveRequest.swift; sourceTree = "<group>"; };
+		1908675E75D2E001EC1C93D94EE6EF68 /* EverliveConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EverliveConnection.swift; path = EverliveSDK/EverliveConnection.swift; sourceTree = "<group>"; };
+		1981D7D41C2F477BC4650471F184C1EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF6D680B4B142C319F0178BCD694B24 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		1D5C69CC31CA078F409978A2D13CBD5A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		1FADE52D28B564EF9A4AAF99384BFBC0 /* MultipleResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleResult.swift; path = EverliveSDK/MultipleResult.swift; sourceTree = "<group>"; };
+		235EE934EF0F19AD9F0313979AFB8D34 /* EverliveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EverliveSDK-prefix.pch"; sourceTree = "<group>"; };
+		25769850A90BE0E3C2B476B249394FB6 /* EVReflectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVReflectionExtensions.swift; path = EverliveSDK/EVReflectionExtensions.swift; sourceTree = "<group>"; };
 		2690E1BC5BA160DC571D8E9787B49187 /* Pods-EverliveSdkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EverliveSdkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		270D330B7344A44D621CCFFEA48BCFE3 /* ResultBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResultBase.swift; sourceTree = "<group>"; };
-		2B5B496E3476293DC4263CB58D65F2E4 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		2BA2DD07965523867413506C71E8C979 /* EVWorkaroundHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVWorkaroundHelpers.swift; path = EVReflection/pod/EVWorkaroundHelpers.swift; sourceTree = "<group>"; };
-		2FC00BEF7A30C2BC1C06AD2A05B94728 /* UpdateResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpdateResult.swift; sourceTree = "<group>"; };
-		3044812CEE971DAA52CEB6760D6DAA1D /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		3057445DDFEC0CE1DBD0D4C9827707DF /* EverliveConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EverliveConnection.swift; sourceTree = "<group>"; };
+		2702153851B01CAD72EAC9221A80E1FB /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		2919F11F441A9F59832F6C21C20910E1 /* AuthenticationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationHandler.swift; path = EverliveSDK/AuthenticationHandler.swift; sourceTree = "<group>"; };
+		29E94B456A78CDB8ACE680637416666B /* PushDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushDevice.swift; path = EverliveSDK/PushDevice.swift; sourceTree = "<group>"; };
+		2A19E10443AF55ADAD8B37B4BE8E2428 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		2A7BCC10EF6DDFE9679898019835523F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		2B2C18FE4B3FAE95CF1A9756737974F6 /* UserLoginMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserLoginMethod.swift; path = EverliveSDK/UserLoginMethod.swift; sourceTree = "<group>"; };
+		2EA707B50B73113F2700B3B9B7739F2C /* GetByIdHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetByIdHandler.swift; path = EverliveSDK/GetByIdHandler.swift; sourceTree = "<group>"; };
+		2F78711BB5A35A6BF7A566EB7D007967 /* UsersHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsersHandler.swift; path = EverliveSDK/UsersHandler.swift; sourceTree = "<group>"; };
+		3036D9625AADAC6BBEADBEF8AC19A154 /* Updateable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updateable.swift; path = EverliveSDK/Updateable.swift; sourceTree = "<group>"; };
 		3154308DEE7A49FEAE848B5F5BD90CB7 /* Pods-EverliveSdkTestsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EverliveSdkTestsTests-resources.sh"; sourceTree = "<group>"; };
-		31B2399F497361023F1AB264679C5A85 /* EVExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVExtensions.swift; path = EVReflection/pod/EVExtensions.swift; sourceTree = "<group>"; };
-		36894AE5ED482DAD7C15F78A9D921AC0 /* PushNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
-		38B9AED76CAEC39C51881C5F6E480228 /* Updateable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Updateable.swift; sourceTree = "<group>"; };
-		3BF267D75F5537F07A5C1C5C4868FADA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		419D5078BE7578E7DF390A024294CA17 /* UpdateModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpdateModifier.swift; sourceTree = "<group>"; };
-		42BA4508840B22D34E03671F69789927 /* DevicesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevicesHandler.swift; sourceTree = "<group>"; };
-		43A375F3FB8F948B232684E621291A26 /* AlamofireExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
-		43B9CE6521D8E7D9C0A4B0251FA77F45 /* EverliveApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EverliveApp.swift; sourceTree = "<group>"; };
-		44239124D12452E7647E6E0240FF7DA7 /* GenericResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GenericResult.swift; sourceTree = "<group>"; };
-		445D33BD564CF79C3C38369D44CCDDAF /* BaseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseHandler.swift; sourceTree = "<group>"; };
-		44CE12934E04C220B6E840433024A254 /* DataItemMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataItemMetadata.swift; sourceTree = "<group>"; };
-		4A72698FEA70A000BE2BE6D6ED417984 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		4AE43389A1D98D364AF9D021923E02DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3259F4DA4926EF329382F6C71F52ADAD /* EVReflection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVReflection-umbrella.h"; sourceTree = "<group>"; };
+		32C824D7DC6CB1A9D21227889FF01185 /* NotificationsHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsHandler.swift; path = EverliveSDK/NotificationsHandler.swift; sourceTree = "<group>"; };
+		34AA227ECB87D21DDED10503CAC441DF /* BaseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseHandler.swift; path = EverliveSDK/BaseHandler.swift; sourceTree = "<group>"; };
+		357577BD8F78569957E7E3A0322E4BFD /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		36DD4755E26CEB0392DF359D8F6008DF /* EverliveApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EverliveApp.swift; path = EverliveSDK/EverliveApp.swift; sourceTree = "<group>"; };
+		383267BE63CF50BD6E906A22B1386C85 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		39337A16A8B21914142AC75553D46E8D /* PermissionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsInfo.swift; path = EverliveSDK/PermissionsInfo.swift; sourceTree = "<group>"; };
+		3A66572D63BE663A213E39DFD01AB096 /* EVReflection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVReflection.xcconfig; sourceTree = "<group>"; };
+		3AEC395B15EE0C0497F8D7AE2CED1D80 /* AccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessToken.swift; path = EverliveSDK/AccessToken.swift; sourceTree = "<group>"; };
+		3DBD55B3BD4AFB05A549B898715C56DD /* MultipleExpandDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleExpandDefinition.swift; path = EverliveSDK/MultipleExpandDefinition.swift; sourceTree = "<group>"; };
+		401F4D724F0F80A9E11019B4703D3E3D /* MasterKeyLoginMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MasterKeyLoginMethod.swift; path = EverliveSDK/MasterKeyLoginMethod.swift; sourceTree = "<group>"; };
+		4573A8C15BF3134C794D266EEE2CC4FC /* UpdateByIdHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateByIdHandler.swift; path = EverliveSDK/UpdateByIdHandler.swift; sourceTree = "<group>"; };
+		45D73463DD18B2F7F3A63A9E8DC8C12C /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = EverliveSDK/User.swift; sourceTree = "<group>"; };
 		4C9592BAD37588A89F365F7B142BE06C /* Pods_EverliveSdkTestsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EverliveSdkTestsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52847B3678931C60BA55C88E64F519BB /* CurrentDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurrentDevice.swift; sourceTree = "<group>"; };
+		4F31A9F483CB3ADD0F13A82E8E343053 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		4F756BCA9C30F0F1C104BE0480337F95 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		50B23D8D86C5B0D0DFF276FFF80D0F2E /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		53D8184D85B313ECB8AE6AD49270A8C1 /* Pods-EverliveSdkTestsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EverliveSdkTestsTests.modulemap"; sourceTree = "<group>"; };
-		557F672C5F5B7A66201E833E41036BD9 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		56F7AEA4FCF41BEF8391BE86E0B27143 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		5726083E1B448732356B6896EDA1845F /* Pods-EverliveSdkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EverliveSdkTests-dummy.m"; sourceTree = "<group>"; };
-		5795A7EE7C160D30C2367F3C49C71272 /* LoginMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginMethod.swift; sourceTree = "<group>"; };
 		587D76849CF1EBD5C972B2CBC4AC65E0 /* Pods-EverliveSdkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EverliveSdkTests.modulemap"; sourceTree = "<group>"; };
-		58B459DBB610113F9D76E61EBFB78596 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		59495B18190FE766AB71FB67BED89533 /* Sorting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
-		59FC20B856B64435A8CB04940AF5BA16 /* GetByIdHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetByIdHandler.swift; sourceTree = "<group>"; };
-		5CBC1EF90FA9B15A1389E37F98C9E4B0 /* UploadFileResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UploadFileResult.swift; sourceTree = "<group>"; };
+		58E40ED4F6E8B5E6F7D04A2069754E3A /* DevicesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevicesHandler.swift; path = EverliveSDK/DevicesHandler.swift; sourceTree = "<group>"; };
+		5AAF3DF6B6E743BB5EE2A7CAA987FFFF /* UpdateField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateField.swift; path = EverliveSDK/UpdateField.swift; sourceTree = "<group>"; };
+		5D0B540C540ACE443979067CA6EDB96B /* QueryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryProtocol.swift; path = EverliveSDK/QueryProtocol.swift; sourceTree = "<group>"; };
+		5D8F03D22A1852900B1C4C1236A3868C /* FilesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilesHandler.swift; path = EverliveSDK/FilesHandler.swift; sourceTree = "<group>"; };
 		5F70926F2C79E80DF0FA2D17A3C81679 /* Pods-EverliveSdkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EverliveSdkTests.release.xcconfig"; sourceTree = "<group>"; };
+		6076CEA249D5CE2AFC16F556D4995990 /* Sorting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sorting.swift; path = EverliveSDK/Sorting.swift; sourceTree = "<group>"; };
 		60A0731E85650A23BC1D1BEC9524A561 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		62D8FB0769B17790ECF9FDF756603E48 /* AuthenticationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthenticationHandler.swift; sourceTree = "<group>"; };
+		619338D9F18B346E46096215B00BC9E6 /* EVReflection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVReflection-dummy.m"; sourceTree = "<group>"; };
+		61F8E631D45C8075851C60D0A0570D25 /* ExpandDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandDefinition.swift; path = EverliveSDK/ExpandDefinition.swift; sourceTree = "<group>"; };
 		632B6BF416BD9C4C7EC39BF701053E4D /* Pods-EverliveSdkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EverliveSdkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		65AE5DE698FE294A0A807D4CA090F75C /* GetCountHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetCountHandler.swift; sourceTree = "<group>"; };
+		632CA3BC8185D852790771E031B4C6E3 /* FilterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterProtocol.swift; path = EverliveSDK/FilterProtocol.swift; sourceTree = "<group>"; };
 		667CD80F9C41374AB24DE8D6E10AB139 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		679B8B318434E58B567528DBD5CF403A /* EverliveCompoundQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EverliveCompoundQuery.swift; sourceTree = "<group>"; };
-		683CA062C2036BD1FDB04EB097AC34D4 /* MultipleResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultipleResult.swift; sourceTree = "<group>"; };
 		68B78FE35AEC804A20AE7A421F164615 /* Pods-EverliveSdkTestsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EverliveSdkTestsTests-frameworks.sh"; sourceTree = "<group>"; };
-		68EDABF0CF5E5BD7B8CC9A7352CDEA51 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		69EC8D61AE6A894C69BCBCA75332C076 /* ValueCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValueCondition.swift; sourceTree = "<group>"; };
-		6A0F80470AEF7388CFA86F2CB490F132 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		6E1F2E20B0472B1F355E97A448D9CFB4 /* EVReflection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EVReflection.modulemap; sourceTree = "<group>"; };
-		7154F3B7BD645EA7CBBD327BD8C0D7DF /* EVReflectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EVReflectionExtensions.swift; sourceTree = "<group>"; };
-		739A3A00BBE7041A12113A53E7059903 /* PermissionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PermissionsInfo.swift; sourceTree = "<group>"; };
-		77BB8ACF2E41CE4B6CA326D1058760FF /* UsersHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersHandler.swift; sourceTree = "<group>"; };
-		7972F55D6565021919789CFA9B9008B8 /* MasterKeyLoginMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MasterKeyLoginMethod.swift; sourceTree = "<group>"; };
-		7A6DA4F84F31F14AF645B0DAEBB997EF /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		6955CD444158AE3A0F596EBE6D6466F7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		6B1756D5FE9287F2B815F4C6B1EFA99B /* DataItemMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataItemMetadata.swift; path = EverliveSDK/DataItemMetadata.swift; sourceTree = "<group>"; };
+		6D4F5E20DDF5E37B0F239B0ED479FF39 /* DeleteResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeleteResult.swift; path = EverliveSDK/DeleteResult.swift; sourceTree = "<group>"; };
+		6DE2BB48500990063FA627A36642E897 /* EVReflection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EVReflection.modulemap; sourceTree = "<group>"; };
+		6E4EA84796C8F9437324DC2F399B32C2 /* DataItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataItem.swift; path = EverliveSDK/DataItem.swift; sourceTree = "<group>"; };
+		6F517AAB1575CA6CAFA7D59DBB4A7296 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		6FB30A98B026E30BF83FA086A41BD1F4 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		73B1E223A27E485718621FAE75889B33 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		741BBC54778B89E95485B64037678AA7 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		77C0CEC3D05A5C928CA4FC13D7E5906F /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = EverliveSDK/Constants.swift; sourceTree = "<group>"; };
+		79A9B1278B6581A9FF3E6224613B2ED8 /* GetByFilterHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetByFilterHandler.swift; path = EverliveSDK/GetByFilterHandler.swift; sourceTree = "<group>"; };
 		7C7DB66772D5AD37003BF664F9FD2760 /* Pods-EverliveSdkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EverliveSdkTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D65984CD595EB136035478BB3285004 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		7EBCF83F63F2087DF803D7E98030ABEE /* PropertyObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PropertyObservable.swift; sourceTree = "<group>"; };
+		7D33663437531D00865EC2143A88B606 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		80A175F85BC8968FD59E398C8961285E /* Pods-EverliveSdkTestsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EverliveSdkTestsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		80E276E523D2CB03AAA1D2A631A97AB8 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		8456EFD5708AAF2873F1688660C29A7C /* EVReflection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVReflection.xcconfig; sourceTree = "<group>"; };
-		87DAD147856A4F413B99843883E3BA10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838D1CB6C5CE2C051B5BF639F6812A9E /* EVReflection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVReflection-prefix.pch"; sourceTree = "<group>"; };
+		83E9674F42D8A2DE7AC4A3C3CA154F73 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		86CE206CAFA37628E92948E2EB566EA8 /* UpdateModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateModifier.swift; path = EverliveSDK/UpdateModifier.swift; sourceTree = "<group>"; };
+		87E2D41C72406FDC8258628802BC3D26 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		8A8EE3D5273E86DDCE6379D719C5129B /* Pods-EverliveSdkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EverliveSdkTests-umbrella.h"; sourceTree = "<group>"; };
-		8B84A946CFF13531F59A0AA699AF4A31 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		8DFA1C1CF77824E943F1FE484801C6E6 /* UpdateByFilterHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateByFilterHandler.swift; path = EverliveSDK/UpdateByFilterHandler.swift; sourceTree = "<group>"; };
 		8EDE8A117A42B6ED2D62E8ADF8824ABF /* EVReflection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EVReflection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AF20517BEB61181194EAE6E1A2A2E4 /* EverliveResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EverliveResponse.swift; sourceTree = "<group>"; };
+		907DACB640F5EE804C7E94548B5AA97A /* UploadFileHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadFileHandler.swift; path = EverliveSDK/UploadFileHandler.swift; sourceTree = "<group>"; };
+		90974B8EFE868EA4735E3314B89E3FEA /* DownloadFileHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadFileHandler.swift; path = EverliveSDK/DownloadFileHandler.swift; sourceTree = "<group>"; };
+		9170750CF2063DB2618885E8AB7D4E02 /* UpdateBaseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateBaseHandler.swift; path = EverliveSDK/UpdateBaseHandler.swift; sourceTree = "<group>"; };
 		9395EA04ECB8C7A190ADBA71ACC753A8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93B84179245D7C90562BE2C113A1DB67 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		954099DBAA314CE0EEF6909EC929F7C3 /* FilesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilesHandler.swift; sourceTree = "<group>"; };
-		96046C4DBE52B5AB63E83854C115E882 /* GeoPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeoPoint.swift; sourceTree = "<group>"; };
-		9A78DFDEC26D996DC71F7EEB8F424173 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		93D98CD2968D9B55E6D94B4B5C5D7289 /* RegexCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexCondition.swift; path = EverliveSDK/RegexCondition.swift; sourceTree = "<group>"; };
+		93E0EF36A40077FD7266B072B7D21540 /* EverliveError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EverliveError.swift; path = EverliveSDK/EverliveError.swift; sourceTree = "<group>"; };
+		95D2120AD93E8DB52D017C40E78732B7 /* EverliveSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EverliveSDK.modulemap; sourceTree = "<group>"; };
+		997082027FCCEA03E9B4E1EF5B5D2C2C /* EVWorkaroundHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVWorkaroundHelpers.swift; path = EVReflection/pod/EVWorkaroundHelpers.swift; sourceTree = "<group>"; };
 		9B1C05E52671D8332CBACCB634E0FBD2 /* EVReflection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EVReflection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F86B508AE6E4DCC27122F0C1462990F /* EverliveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EverliveSDK-dummy.m"; sourceTree = "<group>"; };
-		A21A5D2CFB70E56E56FD7D6F24D7AEE7 /* DeleteAll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeleteAll.swift; sourceTree = "<group>"; };
-		A29DE1C18B560B8DE08A0C34E197A0E9 /* FilterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
+		9C0C41CDFB8A43829811F0A64B207342 /* LogoutHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutHandler.swift; path = EverliveSDK/LogoutHandler.swift; sourceTree = "<group>"; };
 		A3F025C3A882CB2F0BEF9A5D8B4B0899 /* Pods-EverliveSdkTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EverliveSdkTests-resources.sh"; sourceTree = "<group>"; };
-		A54746069195162FBA0A1EFEDF65AB71 /* CreateMultipleHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateMultipleHandler.swift; sourceTree = "<group>"; };
-		A6267D07DD6DE64ED6214929D3A8AB9E /* DeleteByIdHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeleteByIdHandler.swift; sourceTree = "<group>"; };
+		A7EEFB10C38A5247AE685ED7CAD82537 /* EverliveSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EverliveSDK.xcconfig; sourceTree = "<group>"; };
 		A936F2229F407D9022B9EA47AD0E034F /* Pods-EverliveSdkTestsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EverliveSdkTestsTests-dummy.m"; sourceTree = "<group>"; };
-		AB588597D9DFACCC876CFB813D2B770E /* ExpandDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpandDefinition.swift; sourceTree = "<group>"; };
-		ABD500ACD8441FE03B3F07C493A4899B /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		B02BAA68AC02AD4EB1CDBAF77F78330D /* UploadFileHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UploadFileHandler.swift; sourceTree = "<group>"; };
-		B2BD57E5EC09BDDCADA4F58B18406B5B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		B391AD4BF13033C5928277C6093D55CC /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		B8AF23BBEF5A47AD34D6A4ED05112358 /* EVObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVObject.swift; path = EVReflection/pod/EVObject.swift; sourceTree = "<group>"; };
+		AA0662B8C5C5A37329523332C7E103A4 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = EverliveSDK/File.swift; sourceTree = "<group>"; };
+		B47FB596EA2D0294706862FBB4BA66EC /* DataHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataHandler.swift; path = EverliveSDK/DataHandler.swift; sourceTree = "<group>"; };
+		B7F228B0C935D4026A8322287832B429 /* LoginMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginMethod.swift; path = EverliveSDK/LoginMethod.swift; sourceTree = "<group>"; };
 		B8DF5123411742E12DBA5F9DCF4FB3FF /* Pods-EverliveSdkTestsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EverliveSdkTestsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B91C396CA77ABFD95E911DBBC6ED0BDC /* PushDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PushDevice.swift; sourceTree = "<group>"; };
-		BBF70CC607F97B5BE2C8846F42E1A381 /* EverliveSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EverliveSDK.xcconfig; sourceTree = "<group>"; };
-		BC7068D9B13206C0630B4DBEB329777A /* Paging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Paging.swift; sourceTree = "<group>"; };
-		BE7190498126BADAFF11D0098F722142 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		C29A2A6E50BF9F44A5C6AF0BDC4AAF3B /* EVReflection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVReflection-dummy.m"; sourceTree = "<group>"; };
-		C44BF39C718E3539F623504D76EDA413 /* AccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
-		C4B4BDD8044CD69BC8FA5999AD2C28B7 /* GetAllHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetAllHandler.swift; sourceTree = "<group>"; };
+		B9873DC70BE656A595ABC3333F0F8F14 /* CreateMultipleHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateMultipleHandler.swift; path = EverliveSDK/CreateMultipleHandler.swift; sourceTree = "<group>"; };
+		BAACE8DE405F1D7C63B7FAE24B48E660 /* UsersGenericHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsersGenericHandler.swift; path = EverliveSDK/UsersGenericHandler.swift; sourceTree = "<group>"; };
+		BD7F7C66DC69973BADB7BFBA030426E8 /* DeleteByIdHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeleteByIdHandler.swift; path = EverliveSDK/DeleteByIdHandler.swift; sourceTree = "<group>"; };
+		BED2BD9FC18A5EDB84DC8C7E560F682A /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		C3FB286B6897A4C797185AB9FBB30E35 /* EverliveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EverliveSDK-umbrella.h"; sourceTree = "<group>"; };
 		C4ECA1D7AFC363830A230E616B944A9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C66281A6A0A0E867C0B9AE04E29517BD /* UpdateByIdHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpdateByIdHandler.swift; sourceTree = "<group>"; };
-		C7023FD740AF3EA4D196FAA4B4A45D03 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		C752FC6A978A83D73699B8AFA751397D /* EVObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVObject.swift; path = EVReflection/pod/EVObject.swift; sourceTree = "<group>"; };
+		C76F441E3E4021CB38D5387E5D63D346 /* EverliveCompoundQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EverliveCompoundQuery.swift; path = EverliveSDK/EverliveCompoundQuery.swift; sourceTree = "<group>"; };
 		C787678D0D1106903280C78B321D4DC6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7F10ECD8841B0E94DFEB4B7F7D071E5 /* EverliveRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EverliveRequest.swift; sourceTree = "<group>"; };
-		CCA169B62C7AE6F7FB0648B4FCC5E476 /* LoginHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
-		D44E208E4933908CC80CC8DA8C4EE0EF /* QueryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QueryProtocol.swift; sourceTree = "<group>"; };
+		C8DDAC0FBBB5DABAABC65AEA50663795 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		C8F9F96CE787E6E85E2DF7BB136B0523 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		C9A8AFFC21B7478C323385A7277BDB61 /* UpdateResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateResult.swift; path = EverliveSDK/UpdateResult.swift; sourceTree = "<group>"; };
+		D10D15E1A96098C8477511E4CEDD10BF /* UploadFileResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadFileResult.swift; path = EverliveSDK/UploadFileResult.swift; sourceTree = "<group>"; };
+		D542AD8D298ADF5294DAE534C28B3801 /* ResultBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultBase.swift; path = EverliveSDK/ResultBase.swift; sourceTree = "<group>"; };
 		D58A1D01943B0A9C77E6C5C60AAA50F4 /* EverliveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EverliveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FBC92CF06B6ED8AF8260666E2F20BA /* PushNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotification.swift; path = EverliveSDK/PushNotification.swift; sourceTree = "<group>"; };
 		D7B859E12D0AD9B7056F3C47A5662553 /* Pods_EverliveSdkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EverliveSdkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D561A258B7E0C07F189B0F1C446006 /* GetAllHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetAllHandler.swift; path = EverliveSDK/GetAllHandler.swift; sourceTree = "<group>"; };
 		DA3513AB9C2ADCAFA72946CDE269AA6D /* Pods-EverliveSdkTestsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EverliveSdkTestsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DA36F14D06DC6D1CD8C06151BC2134F6 /* Pods-EverliveSdkTestsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EverliveSdkTestsTests-umbrella.h"; sourceTree = "<group>"; };
 		DA61096CD137C038EA2AB8357544870C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DB306599DC36DFABBCE77EEB8141605E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB857957EE2368CB2A8D72813BDD5A7E /* DataHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
-		DD2CD25ED02AC665F62004410C83D218 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		DE43270C8FDFA7DC48BDC850A87705EE /* EverliveError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EverliveError.swift; sourceTree = "<group>"; };
-		DE7316A2A11A2595A03CE66490461994 /* UserLoginMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserLoginMethod.swift; sourceTree = "<group>"; };
-		DF335B9ADC080627A1CAB8E91A504872 /* RegexCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegexCondition.swift; sourceTree = "<group>"; };
-		E1743542CA20D076E7F1A98B1C5D4640 /* FilterCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterCondition.swift; sourceTree = "<group>"; };
-		E58A3D9BEA234FDDB18976C755AB03F5 /* EverliveQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EverliveQuery.swift; sourceTree = "<group>"; };
-		ED8C474C59EC62068D768AC61EF0270F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		EE37DA892546F75E2D0D4B782BE35A28 /* UpdateByFilterHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpdateByFilterHandler.swift; sourceTree = "<group>"; };
-		EEAB4B6129E68E77271770E83EE56D57 /* EverliveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EverliveSDK-umbrella.h"; sourceTree = "<group>"; };
-		EFDA99D2180A05BAA741FAADC0867E80 /* PushHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PushHandler.swift; sourceTree = "<group>"; };
-		F06C4F9CC51DE2F08AE962E4087B81B8 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F12723653DFEFC967FBAF368EC20E2CE /* GetByFilterHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GetByFilterHandler.swift; sourceTree = "<group>"; };
-		F52BC81255F750CBD0B8595C928A2BE6 /* MultipleExpandDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultipleExpandDefinition.swift; sourceTree = "<group>"; };
-		F8BA319B39F1E133A1568AD5C249BE2C /* SingleResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SingleResult.swift; sourceTree = "<group>"; };
-		FA39B9AB74874AC29675F642ED201227 /* NotificationsHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationsHandler.swift; sourceTree = "<group>"; };
-		FC57404527A4B039DFDB06D146796BCA /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		DC35C0893A6C5240E2B58A5705A7E5F3 /* EverliveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EverliveSDK-dummy.m"; sourceTree = "<group>"; };
+		DCC49E513D0D94E10146D8ABB59C0BD9 /* EVExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVExtensions.swift; path = EVReflection/pod/EVExtensions.swift; sourceTree = "<group>"; };
+		DF27BD16C05866546E5A244907FC2A79 /* GetCountHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetCountHandler.swift; path = EverliveSDK/GetCountHandler.swift; sourceTree = "<group>"; };
+		DFA18842BE6E109ACB810857E764FF25 /* EverliveQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EverliveQuery.swift; path = EverliveSDK/EverliveQuery.swift; sourceTree = "<group>"; };
+		E0A99953C826BD8E18B1250DE60DD7C7 /* Paging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Paging.swift; path = EverliveSDK/Paging.swift; sourceTree = "<group>"; };
+		E33C9A4B4E149034D7E012A1CCF6EC94 /* CurrentDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentDevice.swift; path = EverliveSDK/CurrentDevice.swift; sourceTree = "<group>"; };
+		E356B249C981972724553FCAD3A13932 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		E3C1DD595B469B881503CB5FFFC12359 /* EverliveResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EverliveResponse.swift; path = EverliveSDK/EverliveResponse.swift; sourceTree = "<group>"; };
+		E4DE62A7E632374FA4A341BCB2C66EC5 /* EVReflection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVReflection.swift; path = EVReflection/pod/EVReflection.swift; sourceTree = "<group>"; };
+		E561A2825782184AFEAFAE6B8E6718D9 /* LoginHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginHandler.swift; path = EverliveSDK/LoginHandler.swift; sourceTree = "<group>"; };
+		E60DE0068381F7071D121D0B70AC94FA /* SingleResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleResult.swift; path = EverliveSDK/SingleResult.swift; sourceTree = "<group>"; };
+		E8272D4D4CADDF1006B2701E2A3B4C9A /* FilterCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterCondition.swift; path = EverliveSDK/FilterCondition.swift; sourceTree = "<group>"; };
+		EB6CCB67BCDD17AD99EEFB2D55DB790D /* AlamofireExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtensions.swift; path = EverliveSDK/AlamofireExtensions.swift; sourceTree = "<group>"; };
+		EDAE513CE690C6615262302AC55312DF /* DeleteAll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeleteAll.swift; path = EverliveSDK/DeleteAll.swift; sourceTree = "<group>"; };
+		EE138711C012ABB8BEC6AB044F0C8117 /* ValueCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueCondition.swift; path = EverliveSDK/ValueCondition.swift; sourceTree = "<group>"; };
+		F1FCCC084C76182565F31F587D2F81AB /* GeoPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoPoint.swift; path = EverliveSDK/GeoPoint.swift; sourceTree = "<group>"; };
+		F2C28B3F91230B2F313DB4D6CC939F8D /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		F56EC252FAB2F9B5AC96E6A6D60F3DD5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		F6F9E3A8C535060A6BC4F429BFC24632 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC48A703C72C301DD514ECA20D093DCE /* UpdateObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateObject.swift; path = EverliveSDK/UpdateObject.swift; sourceTree = "<group>"; };
 		FC9971E6C133C734E1EB5D5837378127 /* Pods-EverliveSdkTestsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EverliveSdkTestsTests.release.xcconfig"; sourceTree = "<group>"; };
-		FC9C251B39D859FB760E2F77F2A9D4D6 /* LogoutHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogoutHandler.swift; sourceTree = "<group>"; };
-		FE94074E1E0DE3939021590EC00E6DF5 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		FE968414AC59C9969C3AB391EB441684 /* PropertyObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyObservable.swift; path = EverliveSDK/PropertyObservable.swift; sourceTree = "<group>"; };
+		FF2AD05645B757C2896ED4B5361A0E34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,109 +410,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0282B94F89712CC0804FEB1EF81A5D16 /* EVReflection */ = {
-			isa = PBXGroup;
-			children = (
-				31B2399F497361023F1AB264679C5A85 /* EVExtensions.swift */,
-				B8AF23BBEF5A47AD34D6A4ED05112358 /* EVObject.swift */,
-				195A3AF44BC719EA7EFE42D810382C57 /* EVReflection.swift */,
-				2BA2DD07965523867413506C71E8C979 /* EVWorkaroundHelpers.swift */,
-				9222E673E7A6C1DF022D985CAC0F6A81 /* Support Files */,
-			);
-			path = EVReflection;
-			sourceTree = "<group>";
-		};
-		05916D6001E69A1AF0C099F351C75872 /* EverliveSDK */ = {
-			isa = PBXGroup;
-			children = (
-				C44BF39C718E3539F623504D76EDA413 /* AccessToken.swift */,
-				43A375F3FB8F948B232684E621291A26 /* AlamofireExtensions.swift */,
-				62D8FB0769B17790ECF9FDF756603E48 /* AuthenticationHandler.swift */,
-				445D33BD564CF79C3C38369D44CCDDAF /* BaseHandler.swift */,
-				F06C4F9CC51DE2F08AE962E4087B81B8 /* Constants.swift */,
-				090605ECFD5E4B1DC0EEB198837205F2 /* CreateBaseResult.swift */,
-				A54746069195162FBA0A1EFEDF65AB71 /* CreateMultipleHandler.swift */,
-				23CD5DC7B7D1E30334114647E2FFB8F4 /* CreateSingleHandler.swift */,
-				52847B3678931C60BA55C88E64F519BB /* CurrentDevice.swift */,
-				DB857957EE2368CB2A8D72813BDD5A7E /* DataHandler.swift */,
-				0B5C46701347653DB6FC32E4418E8F60 /* DataItem.swift */,
-				44CE12934E04C220B6E840433024A254 /* DataItemMetadata.swift */,
-				A21A5D2CFB70E56E56FD7D6F24D7AEE7 /* DeleteAll.swift */,
-				A6267D07DD6DE64ED6214929D3A8AB9E /* DeleteByIdHandler.swift */,
-				08858C1B13CDDDEE0C4F266DCA25FD37 /* DeleteResult.swift */,
-				42BA4508840B22D34E03671F69789927 /* DevicesHandler.swift */,
-				01F483C02E8940CF070F22D6B2D6DA87 /* DownloadFileHandler.swift */,
-				43B9CE6521D8E7D9C0A4B0251FA77F45 /* EverliveApp.swift */,
-				679B8B318434E58B567528DBD5CF403A /* EverliveCompoundQuery.swift */,
-				3057445DDFEC0CE1DBD0D4C9827707DF /* EverliveConnection.swift */,
-				DE43270C8FDFA7DC48BDC850A87705EE /* EverliveError.swift */,
-				E58A3D9BEA234FDDB18976C755AB03F5 /* EverliveQuery.swift */,
-				C7F10ECD8841B0E94DFEB4B7F7D071E5 /* EverliveRequest.swift */,
-				91AF20517BEB61181194EAE6E1A2A2E4 /* EverliveResponse.swift */,
-				7154F3B7BD645EA7CBBD327BD8C0D7DF /* EVReflectionExtensions.swift */,
-				AB588597D9DFACCC876CFB813D2B770E /* ExpandDefinition.swift */,
-				0DA7532FD5441F9805887DD8276956B5 /* File.swift */,
-				954099DBAA314CE0EEF6909EC929F7C3 /* FilesHandler.swift */,
-				E1743542CA20D076E7F1A98B1C5D4640 /* FilterCondition.swift */,
-				A29DE1C18B560B8DE08A0C34E197A0E9 /* FilterProtocol.swift */,
-				227CB67918DCB4D5599C3D9F3D717186 /* GenericRequestHandler.swift */,
-				44239124D12452E7647E6E0240FF7DA7 /* GenericResult.swift */,
-				96046C4DBE52B5AB63E83854C115E882 /* GeoPoint.swift */,
-				C4B4BDD8044CD69BC8FA5999AD2C28B7 /* GetAllHandler.swift */,
-				F12723653DFEFC967FBAF368EC20E2CE /* GetByFilterHandler.swift */,
-				59FC20B856B64435A8CB04940AF5BA16 /* GetByIdHandler.swift */,
-				65AE5DE698FE294A0A807D4CA090F75C /* GetCountHandler.swift */,
-				CCA169B62C7AE6F7FB0648B4FCC5E476 /* LoginHandler.swift */,
-				5795A7EE7C160D30C2367F3C49C71272 /* LoginMethod.swift */,
-				FC9C251B39D859FB760E2F77F2A9D4D6 /* LogoutHandler.swift */,
-				7972F55D6565021919789CFA9B9008B8 /* MasterKeyLoginMethod.swift */,
-				F52BC81255F750CBD0B8595C928A2BE6 /* MultipleExpandDefinition.swift */,
-				683CA062C2036BD1FDB04EB097AC34D4 /* MultipleResult.swift */,
-				FA39B9AB74874AC29675F642ED201227 /* NotificationsHandler.swift */,
-				BC7068D9B13206C0630B4DBEB329777A /* Paging.swift */,
-				739A3A00BBE7041A12113A53E7059903 /* PermissionsInfo.swift */,
-				7EBCF83F63F2087DF803D7E98030ABEE /* PropertyObservable.swift */,
-				B91C396CA77ABFD95E911DBBC6ED0BDC /* PushDevice.swift */,
-				EFDA99D2180A05BAA741FAADC0867E80 /* PushHandler.swift */,
-				36894AE5ED482DAD7C15F78A9D921AC0 /* PushNotification.swift */,
-				D44E208E4933908CC80CC8DA8C4EE0EF /* QueryProtocol.swift */,
-				DF335B9ADC080627A1CAB8E91A504872 /* RegexCondition.swift */,
-				270D330B7344A44D621CCFFEA48BCFE3 /* ResultBase.swift */,
-				F8BA319B39F1E133A1568AD5C249BE2C /* SingleResult.swift */,
-				59495B18190FE766AB71FB67BED89533 /* Sorting.swift */,
-				38B9AED76CAEC39C51881C5F6E480228 /* Updateable.swift */,
-				05576645F4D9ED91609EC04313B9B891 /* UpdateBaseHandler.swift */,
-				EE37DA892546F75E2D0D4B782BE35A28 /* UpdateByFilterHandler.swift */,
-				C66281A6A0A0E867C0B9AE04E29517BD /* UpdateByIdHandler.swift */,
-				198061BE67D7A91022EFD5EE48FF560B /* UpdateField.swift */,
-				419D5078BE7578E7DF390A024294CA17 /* UpdateModifier.swift */,
-				0A77F796613587222E4DD9784E0AEEBD /* UpdateObject.swift */,
-				2FC00BEF7A30C2BC1C06AD2A05B94728 /* UpdateResult.swift */,
-				B02BAA68AC02AD4EB1CDBAF77F78330D /* UploadFileHandler.swift */,
-				5CBC1EF90FA9B15A1389E37F98C9E4B0 /* UploadFileResult.swift */,
-				041851925340BFD35453A24C2C8538D2 /* User.swift */,
-				DE7316A2A11A2595A03CE66490461994 /* UserLoginMethod.swift */,
-				1138E41E1EEAAD8390DAD658E091D74D /* UsersGenericHandler.swift */,
-				77BB8ACF2E41CE4B6CA326D1058760FF /* UsersHandler.swift */,
-				69EC8D61AE6A894C69BCBCA75332C076 /* ValueCondition.swift */,
-			);
-			path = EverliveSDK;
-			sourceTree = "<group>";
-		};
-		1B03685EB43BFB55FA46801DCA5E701F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2BD57E5EC09BDDCADA4F58B18406B5B /* Alamofire.modulemap */,
-				9A78DFDEC26D996DC71F7EEB8F424173 /* Alamofire.xcconfig */,
-				93B84179245D7C90562BE2C113A1DB67 /* Alamofire-dummy.m */,
-				7D65984CD595EB136035478BB3285004 /* Alamofire-prefix.pch */,
-				25E2F9CCE06A8E89A2E66AFBF66E5E15 /* Alamofire-umbrella.h */,
-				3BF267D75F5537F07A5C1C5C4868FADA /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
 		2689768FECB2E2734694AA1B2C2CCA71 /* Pods-EverliveSdkTestsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,23 +428,30 @@
 			path = "Target Support Files/Pods-EverliveSdkTestsTests";
 			sourceTree = "<group>";
 		};
-		284437E35C0A1EAC6444716D29D8A624 /* Pods */ = {
+		348C217235446E97B6A3EC6F959EA3EA /* EVReflection */ = {
 			isa = PBXGroup;
 			children = (
-				62C8FEF627328AA4FF14E2A53D216671 /* Alamofire */,
-				0282B94F89712CC0804FEB1EF81A5D16 /* EVReflection */,
-				350EDDDDDE229AC5B2AA57AA0562F400 /* SwiftyJSON */,
+				DCC49E513D0D94E10146D8ABB59C0BD9 /* EVExtensions.swift */,
+				C752FC6A978A83D73699B8AFA751397D /* EVObject.swift */,
+				E4DE62A7E632374FA4A341BCB2C66EC5 /* EVReflection.swift */,
+				997082027FCCEA03E9B4E1EF5B5D2C2C /* EVWorkaroundHelpers.swift */,
+				EC59509752D33D4D020D36D549D2C4B4 /* Support Files */,
 			);
-			name = Pods;
+			path = EVReflection;
 			sourceTree = "<group>";
 		};
-		350EDDDDDE229AC5B2AA57AA0562F400 /* SwiftyJSON */ = {
+		37C00AFCCF43F934F3556B08CC2CF693 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ABD500ACD8441FE03B3F07C493A4899B /* SwiftyJSON.swift */,
-				632728058BEE8502155AF6200FF37A89 /* Support Files */,
+				056767C75D6A848AACBF29B09AD752C5 /* Info.plist */,
+				50B23D8D86C5B0D0DFF276FFF80D0F2E /* SwiftyJSON.modulemap */,
+				7D33663437531D00865EC2143A88B606 /* SwiftyJSON.xcconfig */,
+				F2C28B3F91230B2F313DB4D6CC939F8D /* SwiftyJSON-dummy.m */,
+				2702153851B01CAD72EAC9221A80E1FB /* SwiftyJSON-prefix.pch */,
+				83E9674F42D8A2DE7AC4A3C3CA154F73 /* SwiftyJSON-umbrella.h */,
 			);
-			path = SwiftyJSON;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		483BA6EE8FEF600C1EE6A47EB15A8E7C /* iOS */ = {
@@ -559,43 +463,82 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		62C8FEF627328AA4FF14E2A53D216671 /* Alamofire */ = {
+		5BEF4C00267437B065D04B938E4E44A8 /* EverliveSDK */ = {
 			isa = PBXGroup;
 			children = (
-				ED8C474C59EC62068D768AC61EF0270F /* Alamofire.swift */,
-				136293D40CE8393501409C01DCAC3173 /* Download.swift */,
-				58B459DBB610113F9D76E61EBFB78596 /* Error.swift */,
-				111679C593BCB2458771F3A5499C4DD7 /* Manager.swift */,
-				2B5B496E3476293DC4263CB58D65F2E4 /* MultipartFormData.swift */,
-				BE7190498126BADAFF11D0098F722142 /* NetworkReachabilityManager.swift */,
-				6A0F80470AEF7388CFA86F2CB490F132 /* Notifications.swift */,
-				FC57404527A4B039DFDB06D146796BCA /* ParameterEncoding.swift */,
-				0D9170EDA7D2ADAE34A9759AFDBF2CC0 /* Request.swift */,
-				DD2CD25ED02AC665F62004410C83D218 /* Response.swift */,
-				80E276E523D2CB03AAA1D2A631A97AB8 /* ResponseSerialization.swift */,
-				FE94074E1E0DE3939021590EC00E6DF5 /* Result.swift */,
-				7A6DA4F84F31F14AF645B0DAEBB997EF /* ServerTrustPolicy.swift */,
-				1DD926E872E154BC527DA22062298428 /* Stream.swift */,
-				4A72698FEA70A000BE2BE6D6ED417984 /* Timeline.swift */,
-				B391AD4BF13033C5928277C6093D55CC /* Upload.swift */,
-				116CD4BEDFCDA239245623A9F647AD4A /* Validation.swift */,
-				1B03685EB43BFB55FA46801DCA5E701F /* Support Files */,
+				3AEC395B15EE0C0497F8D7AE2CED1D80 /* AccessToken.swift */,
+				EB6CCB67BCDD17AD99EEFB2D55DB790D /* AlamofireExtensions.swift */,
+				2919F11F441A9F59832F6C21C20910E1 /* AuthenticationHandler.swift */,
+				34AA227ECB87D21DDED10503CAC441DF /* BaseHandler.swift */,
+				77C0CEC3D05A5C928CA4FC13D7E5906F /* Constants.swift */,
+				0C6A91901889F32E8D2EA7930ACB567E /* CreateBaseResult.swift */,
+				B9873DC70BE656A595ABC3333F0F8F14 /* CreateMultipleHandler.swift */,
+				03283ED3C1C2A7810B34135FB361A841 /* CreateSingleHandler.swift */,
+				E33C9A4B4E149034D7E012A1CCF6EC94 /* CurrentDevice.swift */,
+				B47FB596EA2D0294706862FBB4BA66EC /* DataHandler.swift */,
+				6E4EA84796C8F9437324DC2F399B32C2 /* DataItem.swift */,
+				6B1756D5FE9287F2B815F4C6B1EFA99B /* DataItemMetadata.swift */,
+				EDAE513CE690C6615262302AC55312DF /* DeleteAll.swift */,
+				BD7F7C66DC69973BADB7BFBA030426E8 /* DeleteByIdHandler.swift */,
+				6D4F5E20DDF5E37B0F239B0ED479FF39 /* DeleteResult.swift */,
+				58E40ED4F6E8B5E6F7D04A2069754E3A /* DevicesHandler.swift */,
+				90974B8EFE868EA4735E3314B89E3FEA /* DownloadFileHandler.swift */,
+				36DD4755E26CEB0392DF359D8F6008DF /* EverliveApp.swift */,
+				C76F441E3E4021CB38D5387E5D63D346 /* EverliveCompoundQuery.swift */,
+				1908675E75D2E001EC1C93D94EE6EF68 /* EverliveConnection.swift */,
+				93E0EF36A40077FD7266B072B7D21540 /* EverliveError.swift */,
+				DFA18842BE6E109ACB810857E764FF25 /* EverliveQuery.swift */,
+				132BBCF451E32F9E236DEC5D9A84AC05 /* EverliveRequest.swift */,
+				E3C1DD595B469B881503CB5FFFC12359 /* EverliveResponse.swift */,
+				25769850A90BE0E3C2B476B249394FB6 /* EVReflectionExtensions.swift */,
+				61F8E631D45C8075851C60D0A0570D25 /* ExpandDefinition.swift */,
+				AA0662B8C5C5A37329523332C7E103A4 /* File.swift */,
+				5D8F03D22A1852900B1C4C1236A3868C /* FilesHandler.swift */,
+				E8272D4D4CADDF1006B2701E2A3B4C9A /* FilterCondition.swift */,
+				632CA3BC8185D852790771E031B4C6E3 /* FilterProtocol.swift */,
+				0C43EDCB105D583D9B003D0469050065 /* GenericRequestHandler.swift */,
+				0266E5291A4E656B78D675B7DD0D7C05 /* GenericResult.swift */,
+				F1FCCC084C76182565F31F587D2F81AB /* GeoPoint.swift */,
+				D9D561A258B7E0C07F189B0F1C446006 /* GetAllHandler.swift */,
+				79A9B1278B6581A9FF3E6224613B2ED8 /* GetByFilterHandler.swift */,
+				2EA707B50B73113F2700B3B9B7739F2C /* GetByIdHandler.swift */,
+				DF27BD16C05866546E5A244907FC2A79 /* GetCountHandler.swift */,
+				E561A2825782184AFEAFAE6B8E6718D9 /* LoginHandler.swift */,
+				B7F228B0C935D4026A8322287832B429 /* LoginMethod.swift */,
+				9C0C41CDFB8A43829811F0A64B207342 /* LogoutHandler.swift */,
+				401F4D724F0F80A9E11019B4703D3E3D /* MasterKeyLoginMethod.swift */,
+				3DBD55B3BD4AFB05A549B898715C56DD /* MultipleExpandDefinition.swift */,
+				1FADE52D28B564EF9A4AAF99384BFBC0 /* MultipleResult.swift */,
+				32C824D7DC6CB1A9D21227889FF01185 /* NotificationsHandler.swift */,
+				E0A99953C826BD8E18B1250DE60DD7C7 /* Paging.swift */,
+				39337A16A8B21914142AC75553D46E8D /* PermissionsInfo.swift */,
+				FE968414AC59C9969C3AB391EB441684 /* PropertyObservable.swift */,
+				29E94B456A78CDB8ACE680637416666B /* PushDevice.swift */,
+				0A20F989440192E3A2B5164697D8994F /* PushHandler.swift */,
+				D6FBC92CF06B6ED8AF8260666E2F20BA /* PushNotification.swift */,
+				5D0B540C540ACE443979067CA6EDB96B /* QueryProtocol.swift */,
+				93D98CD2968D9B55E6D94B4B5C5D7289 /* RegexCondition.swift */,
+				D542AD8D298ADF5294DAE534C28B3801 /* ResultBase.swift */,
+				E60DE0068381F7071D121D0B70AC94FA /* SingleResult.swift */,
+				6076CEA249D5CE2AFC16F556D4995990 /* Sorting.swift */,
+				3036D9625AADAC6BBEADBEF8AC19A154 /* Updateable.swift */,
+				9170750CF2063DB2618885E8AB7D4E02 /* UpdateBaseHandler.swift */,
+				8DFA1C1CF77824E943F1FE484801C6E6 /* UpdateByFilterHandler.swift */,
+				4573A8C15BF3134C794D266EEE2CC4FC /* UpdateByIdHandler.swift */,
+				5AAF3DF6B6E743BB5EE2A7CAA987FFFF /* UpdateField.swift */,
+				86CE206CAFA37628E92948E2EB566EA8 /* UpdateModifier.swift */,
+				FC48A703C72C301DD514ECA20D093DCE /* UpdateObject.swift */,
+				C9A8AFFC21B7478C323385A7277BDB61 /* UpdateResult.swift */,
+				907DACB640F5EE804C7E94548B5AA97A /* UploadFileHandler.swift */,
+				D10D15E1A96098C8477511E4CEDD10BF /* UploadFileResult.swift */,
+				45D73463DD18B2F7F3A63A9E8DC8C12C /* User.swift */,
+				2B2C18FE4B3FAE95CF1A9756737974F6 /* UserLoginMethod.swift */,
+				BAACE8DE405F1D7C63B7FAE24B48E660 /* UsersGenericHandler.swift */,
+				2F78711BB5A35A6BF7A566EB7D007967 /* UsersHandler.swift */,
+				EE138711C012ABB8BEC6AB044F0C8117 /* ValueCondition.swift */,
+				84885AE3471FC94B8D38C5DA2AC2E5BD /* Support Files */,
 			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		632728058BEE8502155AF6200FF37A89 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				87DAD147856A4F413B99843883E3BA10 /* Info.plist */,
-				557F672C5F5B7A66201E833E41036BD9 /* SwiftyJSON.modulemap */,
-				C7023FD740AF3EA4D196FAA4B4A45D03 /* SwiftyJSON.xcconfig */,
-				68EDABF0CF5E5BD7B8CC9A7352CDEA51 /* SwiftyJSON-dummy.m */,
-				8B84A946CFF13531F59A0AA699AF4A31 /* SwiftyJSON-prefix.pch */,
-				3044812CEE971DAA52CEB6760D6DAA1D /* SwiftyJSON-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			path = EverliveSDK;
 			sourceTree = "<group>";
 		};
 		6FE795257B5CC42EFF94C39B659D69BE /* Frameworks */ = {
@@ -613,26 +556,61 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A305EA617879BED07AEA7EE7443CFE10 /* Development Pods */,
 				6FE795257B5CC42EFF94C39B659D69BE /* Frameworks */,
-				284437E35C0A1EAC6444716D29D8A624 /* Pods */,
+				89BDA5B0D8BDBD41FD62CAAE33B3667E /* Pods */,
 				9C4E8FDE913B0C3B3FB3BC1DE64A5E7B /* Products */,
 				AEAB7253B3CF99D7391EE6BBE01D11A6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9222E673E7A6C1DF022D985CAC0F6A81 /* Support Files */ = {
+		7DE71E5F598A1921EB7C687F391DD235 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				6E1F2E20B0472B1F355E97A448D9CFB4 /* EVReflection.modulemap */,
-				8456EFD5708AAF2873F1688660C29A7C /* EVReflection.xcconfig */,
-				C29A2A6E50BF9F44A5C6AF0BDC4AAF3B /* EVReflection-dummy.m */,
-				0652B52A4405C3E3A9B4BDF4FC6526F8 /* EVReflection-prefix.pch */,
-				06E07066953FE7205353AE6EBC1AD43A /* EVReflection-umbrella.h */,
-				1CE2A926A61751546B68F246F3F72626 /* Info.plist */,
+				2A7BCC10EF6DDFE9679898019835523F /* Alamofire.swift */,
+				C8F9F96CE787E6E85E2DF7BB136B0523 /* Download.swift */,
+				C8DDAC0FBBB5DABAABC65AEA50663795 /* Error.swift */,
+				741BBC54778B89E95485B64037678AA7 /* Manager.swift */,
+				87E2D41C72406FDC8258628802BC3D26 /* MultipartFormData.swift */,
+				6FB30A98B026E30BF83FA086A41BD1F4 /* NetworkReachabilityManager.swift */,
+				1D5C69CC31CA078F409978A2D13CBD5A /* Notifications.swift */,
+				6955CD444158AE3A0F596EBE6D6466F7 /* ParameterEncoding.swift */,
+				00AB4D2ED079F3E196A99996EEDE2C8D /* Request.swift */,
+				1AF6D680B4B142C319F0178BCD694B24 /* Response.swift */,
+				05D95D6930B1274C2E74C863CE93F0BD /* ResponseSerialization.swift */,
+				2A19E10443AF55ADAD8B37B4BE8E2428 /* Result.swift */,
+				F56EC252FAB2F9B5AC96E6A6D60F3DD5 /* ServerTrustPolicy.swift */,
+				BED2BD9FC18A5EDB84DC8C7E560F682A /* Stream.swift */,
+				56F7AEA4FCF41BEF8391BE86E0B27143 /* Timeline.swift */,
+				383267BE63CF50BD6E906A22B1386C85 /* Upload.swift */,
+				73B1E223A27E485718621FAE75889B33 /* Validation.swift */,
+				B6C47E365D5EE8246BBC1CD4F8D900DB /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		84885AE3471FC94B8D38C5DA2AC2E5BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95D2120AD93E8DB52D017C40E78732B7 /* EverliveSDK.modulemap */,
+				A7EEFB10C38A5247AE685ED7CAD82537 /* EverliveSDK.xcconfig */,
+				DC35C0893A6C5240E2B58A5705A7E5F3 /* EverliveSDK-dummy.m */,
+				235EE934EF0F19AD9F0313979AFB8D34 /* EverliveSDK-prefix.pch */,
+				C3FB286B6897A4C797185AB9FBB30E35 /* EverliveSDK-umbrella.h */,
+				F6F9E3A8C535060A6BC4F429BFC24632 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/EVReflection";
+			path = "../Target Support Files/EverliveSDK";
+			sourceTree = "<group>";
+		};
+		89BDA5B0D8BDBD41FD62CAAE33B3667E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DE71E5F598A1921EB7C687F391DD235 /* Alamofire */,
+				5BEF4C00267437B065D04B938E4E44A8 /* EverliveSDK */,
+				348C217235446E97B6A3EC6F959EA3EA /* EVReflection */,
+				F0A9B158A2EBF81D353E5F730115FF74 /* SwiftyJSON */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		9C4E8FDE913B0C3B3FB3BC1DE64A5E7B /* Products */ = {
@@ -648,28 +626,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A305EA617879BED07AEA7EE7443CFE10 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C484C07ABC411187996EF8D88F0B68FF /* EverliveSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A3CDD4C894A86DA98CD25982D63B1CF3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				11459EEEC9EE58D14E552157AF687B9E /* EverliveSDK.modulemap */,
-				BBF70CC607F97B5BE2C8846F42E1A381 /* EverliveSDK.xcconfig */,
-				9F86B508AE6E4DCC27122F0C1462990F /* EverliveSDK-dummy.m */,
-				13B7C153D4123DB74AF9D681786E6B2A /* EverliveSDK-prefix.pch */,
-				EEAB4B6129E68E77271770E83EE56D57 /* EverliveSDK-umbrella.h */,
-				4AE43389A1D98D364AF9D021923E02DF /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../EverliveSdkTests/Pods/Target Support Files/EverliveSDK";
-			sourceTree = "<group>";
-		};
 		AEAB7253B3CF99D7391EE6BBE01D11A6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -679,14 +635,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C484C07ABC411187996EF8D88F0B68FF /* EverliveSDK */ = {
+		B6C47E365D5EE8246BBC1CD4F8D900DB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				05916D6001E69A1AF0C099F351C75872 /* EverliveSDK */,
-				A3CDD4C894A86DA98CD25982D63B1CF3 /* Support Files */,
+				357577BD8F78569957E7E3A0322E4BFD /* Alamofire.modulemap */,
+				4F756BCA9C30F0F1C104BE0480337F95 /* Alamofire.xcconfig */,
+				E356B249C981972724553FCAD3A13932 /* Alamofire-dummy.m */,
+				4F31A9F483CB3ADD0F13A82E8E343053 /* Alamofire-prefix.pch */,
+				6F517AAB1575CA6CAFA7D59DBB4A7296 /* Alamofire-umbrella.h */,
+				FF2AD05645B757C2896ED4B5361A0E34 /* Info.plist */,
 			);
-			name = EverliveSDK;
-			path = ../../EverliveSDK;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		C9C16EF5D70A89F63367061DE6B2C6D7 /* Pods-EverliveSdkTests */ = {
@@ -705,6 +665,29 @@
 			);
 			name = "Pods-EverliveSdkTests";
 			path = "Target Support Files/Pods-EverliveSdkTests";
+			sourceTree = "<group>";
+		};
+		EC59509752D33D4D020D36D549D2C4B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DE2BB48500990063FA627A36642E897 /* EVReflection.modulemap */,
+				3A66572D63BE663A213E39DFD01AB096 /* EVReflection.xcconfig */,
+				619338D9F18B346E46096215B00BC9E6 /* EVReflection-dummy.m */,
+				838D1CB6C5CE2C051B5BF639F6812A9E /* EVReflection-prefix.pch */,
+				3259F4DA4926EF329382F6C71F52ADAD /* EVReflection-umbrella.h */,
+				1981D7D41C2F477BC4650471F184C1EF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EVReflection";
+			sourceTree = "<group>";
+		};
+		F0A9B158A2EBF81D353E5F730115FF74 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0DC46BCF01B953A2B9AF49C06107FF87 /* SwiftyJSON.swift */,
+				37C00AFCCF43F934F3556B08CC2CF693 /* Support Files */,
+			);
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -837,7 +820,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFECAD415AB5B6B7939D4139162B4A65 /* Build configuration list for PBXNativeTarget "EverliveSDK" */;
 			buildPhases = (
-				9C9CF60980751C99AC6FAA76D244C463 /* Sources */,
+				55F0E5525E35107045883983E4A85834 /* Sources */,
 				33D9187BB9DFCDEF860231DE8A52CE3E /* Frameworks */,
 				5CD31EDBA75A734796CBE636766BD9B6 /* Headers */,
 			);
@@ -915,6 +898,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55F0E5525E35107045883983E4A85834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557DFACED8DB257300BFF016925F49C6 /* AccessToken.swift in Sources */,
+				CF1ADF91D1AC03F48F8B71040ADACBCE /* AlamofireExtensions.swift in Sources */,
+				378FC6F95E057CCFA636BA507FA5995B /* AuthenticationHandler.swift in Sources */,
+				CAD528A0713ED369FEF765CF0E330DE7 /* BaseHandler.swift in Sources */,
+				625F38EFD8C910BCB11BF6793F13DED9 /* Constants.swift in Sources */,
+				B464B0856AE71F4E344640CF4387AD76 /* CreateBaseResult.swift in Sources */,
+				E4190709A81A1AB02C9A451BF9647991 /* CreateMultipleHandler.swift in Sources */,
+				07EC03E72F732423A60AE493BE23D109 /* CreateSingleHandler.swift in Sources */,
+				01B3D8329F2B8BAA2C395EE797A6680C /* CurrentDevice.swift in Sources */,
+				0E5020720D06AA1F2C0B829F63AD5049 /* DataHandler.swift in Sources */,
+				A8FCD7B0CD999FACD48E70B67C653CF4 /* DataItem.swift in Sources */,
+				0E070AC3F4C30BAF5D89B21F74951525 /* DataItemMetadata.swift in Sources */,
+				4027944808DAF50F8C2024F2C596D9E4 /* DeleteAll.swift in Sources */,
+				477FC31F30C34ABE64CA36A5A9AC56C8 /* DeleteByIdHandler.swift in Sources */,
+				AEB7DF03F244CFB44835FDF2DED568EB /* DeleteResult.swift in Sources */,
+				870B335964F76AA1740BD3CF4A43E639 /* DevicesHandler.swift in Sources */,
+				5B26BAEADEEEFBDFC2822ED299399942 /* DownloadFileHandler.swift in Sources */,
+				22DAE1FF8A7F80D7E18E4FC7E4AC863C /* EverliveApp.swift in Sources */,
+				EC7E314CDFFDB9766666DD3FE26CBDEE /* EverliveCompoundQuery.swift in Sources */,
+				456A2B0331DF9C03DC7952AF36024C19 /* EverliveConnection.swift in Sources */,
+				B61FC1F98C408A41FAEAFAFDC741C795 /* EverliveError.swift in Sources */,
+				46DE73B2455D2F7509FD8F1D1459BA00 /* EverliveQuery.swift in Sources */,
+				F67DA374172E2E2512034F0358EB8A50 /* EverliveRequest.swift in Sources */,
+				B5E3860F7D74981EEB527880C4091EEF /* EverliveResponse.swift in Sources */,
+				6B148B6DA41FD29144DC63CC600747D3 /* EverliveSDK-dummy.m in Sources */,
+				4797152C7CA7803618F6DF61704A686C /* EVReflectionExtensions.swift in Sources */,
+				19D5FB64D3BDF963DC1926CAB1053482 /* ExpandDefinition.swift in Sources */,
+				705389E70CDBA95E3EF0C750001EDFB9 /* File.swift in Sources */,
+				2099C140B14CE1413343F285E5CE42BE /* FilesHandler.swift in Sources */,
+				6A12C8DE6723A89B1BE9EE8F8A62A7BC /* FilterCondition.swift in Sources */,
+				965B65ABAB933EA4138241AAA86538C1 /* FilterProtocol.swift in Sources */,
+				C3BE8168631D635BF5D5B546B477CDD1 /* GenericRequestHandler.swift in Sources */,
+				88C6B112E4A06FC19652666614E881E2 /* GenericResult.swift in Sources */,
+				B425049665865B2DAB7A09C2F3FE077A /* GeoPoint.swift in Sources */,
+				E21575D13A6D1DDDF4F73C0E33F65E67 /* GetAllHandler.swift in Sources */,
+				04520AE05092A57E298D5AE59682A4D0 /* GetByFilterHandler.swift in Sources */,
+				3B864D19F6E57D0C0F767B94811FA9A8 /* GetByIdHandler.swift in Sources */,
+				D5252193DE60C741924B2E24BEFD1105 /* GetCountHandler.swift in Sources */,
+				857E0228C1EE7660B9D4525F35BE8B48 /* LoginHandler.swift in Sources */,
+				0A5807CBD19AE61EF6783F999EDC2731 /* LoginMethod.swift in Sources */,
+				72081FD3099907F38F60338CA9C3A8D9 /* LogoutHandler.swift in Sources */,
+				355D637E84C761B14CF7DFF0016E81C2 /* MasterKeyLoginMethod.swift in Sources */,
+				584F2453E5CB10A35066DBD8101E5B8B /* MultipleExpandDefinition.swift in Sources */,
+				CE671748263FFB6C9A77D40BAB417524 /* MultipleResult.swift in Sources */,
+				D0B5B62EDE0855B4B970DFF1D8C8865B /* NotificationsHandler.swift in Sources */,
+				27235E44C3F89219CD2464E5AC05846F /* Paging.swift in Sources */,
+				A1AB63337F3F2415DFD346921090BF8A /* PermissionsInfo.swift in Sources */,
+				5E334D565B34452C35F5726A832BBBF8 /* PropertyObservable.swift in Sources */,
+				B8CE5A065E86D30668FCE72EAC59EFFB /* PushDevice.swift in Sources */,
+				D057B422BB789EF07CA0135DA79D2C8F /* PushHandler.swift in Sources */,
+				10B02DCAFC693215A537FE4A8A66D1F8 /* PushNotification.swift in Sources */,
+				8B8B5E6B6BC91BA865DB18648DF0731D /* QueryProtocol.swift in Sources */,
+				470659941C20EC51421A53EA6BE44C6D /* RegexCondition.swift in Sources */,
+				FCCE8B0D29517BAE54A49AF2F7208D22 /* ResultBase.swift in Sources */,
+				D370DB2C37CD0A19A6841F074D943D81 /* SingleResult.swift in Sources */,
+				F601F350801402A05EF26A56AEDA030B /* Sorting.swift in Sources */,
+				CF8D389A58560DC9C3B98E4FD988F77F /* Updateable.swift in Sources */,
+				C94BF2E0DE968D003113100A10C4507D /* UpdateBaseHandler.swift in Sources */,
+				F198CF1700AD08F8D1AA7CC1C904A27F /* UpdateByFilterHandler.swift in Sources */,
+				29140B5D29FE3A444EFA9CAF3D1801DA /* UpdateByIdHandler.swift in Sources */,
+				A6A66848D06F16379E16B0849F36A4C5 /* UpdateField.swift in Sources */,
+				B8E521E4F1EA36692521E26C8BC3D74B /* UpdateModifier.swift in Sources */,
+				28A559465BAA783224361FCE49E05699 /* UpdateObject.swift in Sources */,
+				92B913CC29FA486A8858F473EACC8B24 /* UpdateResult.swift in Sources */,
+				0E7FCF9E4703CF7285278C970290818F /* UploadFileHandler.swift in Sources */,
+				1E5D8FA5B0B7D682938E7A292569D91A /* UploadFileResult.swift in Sources */,
+				DD55518C299C8EC85FEC4D5D5D6200BD /* User.swift in Sources */,
+				828BD9F9F94F7C04B9EF5B9B7A963910 /* UserLoginMethod.swift in Sources */,
+				EA774767ED3A66BFE82D7E8BD5C405AA /* UsersGenericHandler.swift in Sources */,
+				C1E6751DC7D7F87C4C6BE2D4AD57EB3F /* UsersHandler.swift in Sources */,
+				11BF4934820E35BA90E228E29EDDD84E /* ValueCondition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -937,84 +998,6 @@
 				16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */,
 				5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */,
 				2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C9CF60980751C99AC6FAA76D244C463 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6723013AA39F9D1FEA8309F54BCBDE6C /* AccessToken.swift in Sources */,
-				09E9B40BAC747BA809350BF59848328B /* AlamofireExtensions.swift in Sources */,
-				F8E738C8080648AA051109C6DA8FD418 /* AuthenticationHandler.swift in Sources */,
-				83F1E022BFE1F07EBD1D7C3230A980CC /* BaseHandler.swift in Sources */,
-				CAFD11BC2F235095776462823828FAD1 /* Constants.swift in Sources */,
-				93C985E1EC5F3CBA3DFC4A99ADEDBCDC /* CreateBaseResult.swift in Sources */,
-				C8CB59FA198620EA659A51CAD8CEFA4F /* CreateMultipleHandler.swift in Sources */,
-				EEAD924A30A01A7EFF8D7E48397C6610 /* CreateSingleHandler.swift in Sources */,
-				509EB26DDF104DCCD2ADDCAA72FF4B98 /* CurrentDevice.swift in Sources */,
-				90991CA9110809B276337ECE35C26E10 /* DataHandler.swift in Sources */,
-				46606D021804F35C0C3327C400489CCC /* DataItem.swift in Sources */,
-				3AD88130DF7473854137021BEACB111F /* DataItemMetadata.swift in Sources */,
-				6E1E6FD4663EB2A00EDA3BAE868A7D75 /* DeleteAll.swift in Sources */,
-				0317E2B940FAC37E5635B0D664C96A1B /* DeleteByIdHandler.swift in Sources */,
-				5B372F0BA371C222453169CC3EB1C0E0 /* DeleteResult.swift in Sources */,
-				6E60BE1308DBFD1EBF7BCE42FC71EC35 /* DevicesHandler.swift in Sources */,
-				D4E18148BAAB78C9C04339A4ADAF029D /* DownloadFileHandler.swift in Sources */,
-				84E8324B3C8EEA09B4F1EE16171F40C3 /* EverliveApp.swift in Sources */,
-				25E76C4CFEFB7BB890870D050F7369B4 /* EverliveCompoundQuery.swift in Sources */,
-				DCAD971149AAEE99E96D23751B5D3961 /* EverliveConnection.swift in Sources */,
-				B7CF66AE3AA78BEAA1BF41E29C3A5032 /* EverliveError.swift in Sources */,
-				59ABD4A985F2A43CD7A36877B8505646 /* EverliveQuery.swift in Sources */,
-				960842C631999B38AC20E679CC2152BD /* EverliveRequest.swift in Sources */,
-				D170AAE59A3166CD36C28BCB66536617 /* EverliveResponse.swift in Sources */,
-				04531093E0A74709D03128D2FDE9EA7C /* EverliveSDK-dummy.m in Sources */,
-				B4C30158649376D57AECF7FD9BA49BAC /* EVReflectionExtensions.swift in Sources */,
-				3F938F46A71843BCF04110C18C4FE47A /* ExpandDefinition.swift in Sources */,
-				5BA0723303D30B87426E067ABDE26D4D /* File.swift in Sources */,
-				D978608AFD06192C017D4DDA41817DB0 /* FilesHandler.swift in Sources */,
-				7E09F28EA9A88CD01D1BBF32B8AB5BE1 /* FilterCondition.swift in Sources */,
-				E52F5D972DE534CA47010A36C8A78255 /* FilterProtocol.swift in Sources */,
-				F188820A954A34FE947E80FD89D176FF /* GenericRequestHandler.swift in Sources */,
-				FD80FC2CFCA0D7FB60421040E4756789 /* GenericResult.swift in Sources */,
-				2E9B4F01993C3D2C0CF87E222E30647B /* GeoPoint.swift in Sources */,
-				D89F17181807AC350FE50D3E7CFA72FD /* GetAllHandler.swift in Sources */,
-				746ADDD8A6DEF26D82A01FBB72A7BFC3 /* GetByFilterHandler.swift in Sources */,
-				DE634408FFF9200DB5C095082E59B223 /* GetByIdHandler.swift in Sources */,
-				2F6697545B1B089627D72335117321DE /* GetCountHandler.swift in Sources */,
-				F0E13E85520A4FE7B4A7F13B27596E9A /* LoginHandler.swift in Sources */,
-				E768C055613577884C1153969128CDA3 /* LoginMethod.swift in Sources */,
-				ED95F7E0638EFF5BAEF3EF53BB683225 /* LogoutHandler.swift in Sources */,
-				815FFCEA78B0D29778A5A23B9422D90F /* MasterKeyLoginMethod.swift in Sources */,
-				06D714BD7D3B173F173E9CFCE73EE783 /* MultipleExpandDefinition.swift in Sources */,
-				93F6320E7748AA614FC2516DA268C29A /* MultipleResult.swift in Sources */,
-				B59CC8DE7223CC280A9758C6F94B1CB9 /* NotificationsHandler.swift in Sources */,
-				CE3DA58EE4D6FB9EB7AC1F3D32650445 /* Paging.swift in Sources */,
-				1F868C8DCCE7F7CB3863356E5E385F8C /* PermissionsInfo.swift in Sources */,
-				23B9AD213D8A2AA7AE3AC20F9E44F636 /* PropertyObservable.swift in Sources */,
-				4D778408C5767950C6FF60E2C25FDA0E /* PushDevice.swift in Sources */,
-				6011F80638EBF34B95999F0D8BAA2B6B /* PushHandler.swift in Sources */,
-				28E6A46249E5D977A0F9A1C81B27F1C3 /* PushNotification.swift in Sources */,
-				309F39C0316B2CADAEF79596B6377112 /* QueryProtocol.swift in Sources */,
-				76E6E19091D81E7BC6626E2726224637 /* RegexCondition.swift in Sources */,
-				70498BD2DE8D0C062E838275B1799476 /* ResultBase.swift in Sources */,
-				6D07B9821A09AB3E49572ABE154156CA /* SingleResult.swift in Sources */,
-				2C281F9D8C67F9CDCBC0E69118272163 /* Sorting.swift in Sources */,
-				C4108FE8975F0AD041E94490C5191D3E /* Updateable.swift in Sources */,
-				DFEDD4D931FBC3563863D7D533889A72 /* UpdateBaseHandler.swift in Sources */,
-				338C3F0DF50063ECE857BE261AFEC931 /* UpdateByFilterHandler.swift in Sources */,
-				468773729CD842EE9FF18193DA71D6DE /* UpdateByIdHandler.swift in Sources */,
-				B545F6AE4B8BFD5BC2A161C10C71FF27 /* UpdateField.swift in Sources */,
-				9402B06D67A6A54C89AE18DDF8DE173C /* UpdateModifier.swift in Sources */,
-				0DD1C6482D8E6D6C2392708F0F37609B /* UpdateObject.swift in Sources */,
-				31E8E4FD06C017ABCFF7C673B011C86B /* UpdateResult.swift in Sources */,
-				39DE0B966CC5508B59EE6FC04DF56C59 /* UploadFileHandler.swift in Sources */,
-				9D0099FAF67E6C38B0D4A0B6BDC17F3E /* UploadFileResult.swift in Sources */,
-				C3A8F28632759053DFC9A0CD4489E763 /* User.swift in Sources */,
-				66246BA31CD1D2FD85FD2EC8BF7F5989 /* UserLoginMethod.swift in Sources */,
-				450E5DAC923E4BA6518B13D1AC03E691 /* UsersGenericHandler.swift in Sources */,
-				929518EA79FFA8DE4018C135B64E742B /* UsersHandler.swift in Sources */,
-				F1C8A97B92C35032BACD9CA195B3643C /* ValueCondition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,7 +1103,7 @@
 /* Begin XCBuildConfiguration section */
 		0288553DD7CE3C49E195274A8541421C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8456EFD5708AAF2873F1688660C29A7C /* EVReflection.xcconfig */;
+			baseConfigurationReference = 3A66572D63BE663A213E39DFD01AB096 /* EVReflection.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1192,7 +1175,7 @@
 		};
 		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A78DFDEC26D996DC71F7EEB8F424173 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 4F756BCA9C30F0F1C104BE0480337F95 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1322,7 +1305,7 @@
 		};
 		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A78DFDEC26D996DC71F7EEB8F424173 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 4F756BCA9C30F0F1C104BE0480337F95 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1352,7 +1335,7 @@
 		};
 		86BDF7E7E0CF8D7D687DE34BD622341B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBF70CC607F97B5BE2C8846F42E1A381 /* EverliveSDK.xcconfig */;
+			baseConfigurationReference = A7EEFB10C38A5247AE685ED7CAD82537 /* EverliveSDK.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1381,7 +1364,7 @@
 		};
 		89E2C085CB90FF617AF73607207E0F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBF70CC607F97B5BE2C8846F42E1A381 /* EverliveSDK.xcconfig */;
+			baseConfigurationReference = A7EEFB10C38A5247AE685ED7CAD82537 /* EverliveSDK.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1411,7 +1394,7 @@
 		};
 		9B1FE6D45881B5A6A086183E702D1E9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7023FD740AF3EA4D196FAA4B4A45D03 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 7D33663437531D00865EC2143A88B606 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1473,7 +1456,7 @@
 		};
 		AF218CFCFD903A67CE18DF41DB84B271 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7023FD740AF3EA4D196FAA4B4A45D03 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 7D33663437531D00865EC2143A88B606 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1541,7 +1524,7 @@
 		};
 		EC17B9FE6164431DA046A8FB6DBBC482 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8456EFD5708AAF2873F1688660C29A7C /* EVReflection.xcconfig */;
+			baseConfigurationReference = 3A66572D63BE663A213E39DFD01AB096 /* EVReflection.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

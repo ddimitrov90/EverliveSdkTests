@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D673AED1E8826F1888A0B1167F2B2B1BB9546BC9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D673AED1E8826F1888A0B1167F2B2B1BB9546BC9" : 0,
+    "36BE2FF774421D7DA3B4099CDD08F9244D850837" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5ABDBA6-DE14-45B2-AE4E-BFA06EB127DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D673AED1E8826F1888A0B1167F2B2B1BB9546BC9" : "EverliveSdkTests\/",
+    "36BE2FF774421D7DA3B4099CDD08F9244D850837" : "EverliveSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EverliveSdkTests",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EverliveSdkTests.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ddimitrov90\/EverliveSDK",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "36BE2FF774421D7DA3B4099CDD08F9244D850837"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ddimitrov90\/EverliveSdkTests.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D673AED1E8826F1888A0B1167F2B2B1BB9546BC9"
+    }
+  ]
+}

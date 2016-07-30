@@ -3,7 +3,7 @@ platform :ios, '9.0'
 
 def shared_pods 
   use_frameworks!
-  pod 'EverliveSDK', :path => '../EverliveSDK'
+  pod 'EverliveSDK', '~> 1.2.0'
 end
 
 
