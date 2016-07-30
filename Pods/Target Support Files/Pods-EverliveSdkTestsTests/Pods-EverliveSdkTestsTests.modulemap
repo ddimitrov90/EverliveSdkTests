@@ -1,0 +1,6 @@
+framework module Pods_EverliveSdkTestsTests {
+  umbrella header "Pods-EverliveSdkTestsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

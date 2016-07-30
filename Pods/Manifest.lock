@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (3.4.1)
+  - EverliveSDK (1.2.0):
+    - Alamofire (~> 3.0)
+    - EVReflection (~> 2.6)
+    - SwiftyJSON (~> 2.3.1)
+  - EVReflection (2.42.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - EverliveSDK (from `../EverliveSDK`)
+
+EXTERNAL SOURCES:
+  EverliveSDK:
+    :path: ../EverliveSDK
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  EverliveSDK: 510f41931e9d7332eb46cf2ff80c2ebdeb95f818
+  EVReflection: 82ca5595f84e51474017eb11ebecc4a67bb151cb
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: bc80f54b58e528df2c24be7c7c0ed0ff415aea5e
+
+COCOAPODS: 1.0.0

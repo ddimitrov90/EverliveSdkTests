@@ -1,0 +1,6 @@
+framework module EverliveSDK {
+  umbrella header "EverliveSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
