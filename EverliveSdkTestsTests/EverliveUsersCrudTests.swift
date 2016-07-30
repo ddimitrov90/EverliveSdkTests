@@ -55,6 +55,7 @@ class EverliveUsersCrudTests: XCTestCase {
         }
     }
     
+    /*
     func test02_CreateUserWithSecret() {
         let newUser = User()
         newUser.Username = "User2"
@@ -84,7 +85,7 @@ class EverliveUsersCrudTests: XCTestCase {
             XCTAssertNil(error)
         }
     }
-    
+    */
     func test02_CreateMultipleUsers(){
         
         var users:[User] = []
