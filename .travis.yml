@@ -4,6 +4,5 @@ xcode_scheme: EverliveSdkTestsTests
 xcode_sdk: iphonesimulator9.3
 before_install:
  - brew update
- - brew install tailor
 
 script: set -o pipefail && xcodebuild test -workspace EverliveSdkTests.xcworkspace -scheme EverliveSdkTestsTests -sdk iphonesimulator9.3
