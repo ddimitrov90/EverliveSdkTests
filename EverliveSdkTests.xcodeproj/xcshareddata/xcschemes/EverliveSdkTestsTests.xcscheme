@@ -51,6 +51,11 @@
                BlueprintName = "EverliveSdkTestsTests"
                ReferencedContainer = "container:EverliveSdkTests.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "EverliveUsersCrudTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
