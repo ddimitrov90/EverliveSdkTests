@@ -120,17 +120,19 @@ class EverliveQueryTests: XCTestCase {
     func testSingle_regexStartsWithCaseInsensitive(){
         let query = EverliveQuery()
         query.filter("Title", startsWith: "lol", caseSensitive: false)
-        let expectedQueryResult = "{\"Title\":{\"$options\":\"i\",\"$regex\":\"^lol\"}}"
+        let expectedQueryResultFormat1 = "{\"Title\":{\"$options\":\"i\",\"$regex\":\"^lol\"}}"
+        let expectedQueryResultFormat2 = "{\"Title\":{\"$regex\":\"^lol\",\"$options\":\"i\"}}"
         let actualResult = query.getJson()
-        XCTAssertTrue(actualResult == expectedQueryResult, "Expected \(expectedQueryResult) to equal \(actualResult)")
+        XCTAssertTrue(actualResult == expectedQueryResultFormat1 || actualResult == expectedQueryResultFormat2, "Expected \(expectedQueryResultFormat1) or \(expectedQueryResultFormat2) to equal \(actualResult)")
     }
     
     func testSingle_regexEndsWithCaseInsensitive(){
         let query = EverliveQuery()
         query.filter("Title", endsWith: "lol", caseSensitive: false)
-        let expectedQueryResult = "{\"Title\":{\"$options\":\"i\",\"$regex\":\"lol$\"}}"
+        let expectedQueryResultFormat1 = "{\"Title\":{\"$options\":\"i\",\"$regex\":\"lol$\"}}"
+        let expectedQueryResultFormat2 = "{\"Title\":{\"$regex\":\"lol$\",\"$options\":\"i\"}}"
         let actualResult = query.getJson()
-        XCTAssertTrue(actualResult == expectedQueryResult, "Expected \(expectedQueryResult) to equal \(actualResult)")
+        XCTAssertTrue(actualResult == expectedQueryResultFormat1 || actualResult == expectedQueryResultFormat2, "Expected \(expectedQueryResultFormat1) or \(expectedQueryResultFormat2) to equal \(actualResult)")
     }
     
     func testSingle_regexContains(){
@@ -144,9 +146,10 @@ class EverliveQueryTests: XCTestCase {
     func testSingle_regexContainsCaseInsensitive(){
         let query = EverliveQuery()
         query.filter("Title", contains: "lol", caseSensitive: false)
-        let expectedQueryResult = "{\"Title\":{\"$options\":\"i\",\"$regex\":\"lol\"}}"
+        let expectedQueryResultFormat1 = "{\"Title\":{\"$options\":\"i\",\"$regex\":\"lol\"}}"
+        let expectedQueryResultFormat2 = "{\"Title\":{\"$regex\":\"lol\",\"$options\":\"i\"}}"
         let actualResult = query.getJson()
-        XCTAssertTrue(actualResult == expectedQueryResult, "Expected \(expectedQueryResult) to equal \(actualResult)")
+        XCTAssertTrue(actualResult == expectedQueryResultFormat1 || actualResult == expectedQueryResultFormat2, "Expected \(expectedQueryResultFormat1) or \(expectedQueryResultFormat2) to equal \(actualResult)")
     }
     
     func testMultiple_gtAndlt(){
@@ -228,9 +231,10 @@ class EverliveQueryTests: XCTestCase {
         query2.filter("Title", startsWith: "lol", caseSensitive: false)
         let compoundQuery = EverliveCompoundQuery()
         compoundQuery.and([query2, query])
-        let expectedQueryResult = "{\"$and\":[{\"Title\":{\"$options\":\"i\",\"$regex\":\"^lol\"}},{\"$and\":[{\"Likes\":{\"$lt\":40}},{\"Likes\":{\"$gt\":20}}]}]}"
+        let expectedQueryResultFormat1 = "{\"$and\":[{\"Title\":{\"$options\":\"i\",\"$regex\":\"^lol\"}},{\"$and\":[{\"Likes\":{\"$lt\":40}},{\"Likes\":{\"$gt\":20}}]}]}"
+        let expectedQueryResultFormat2 = "{\"$and\":[{\"Title\":{\"$regex\":\"^lol\",\"$options\":\"i\"}},{\"$and\":[{\"Likes\":{\"$lt\":40}},{\"Likes\":{\"$gt\":20}}]}]}"
         let actualResult = compoundQuery.getJson()
-        XCTAssertTrue(actualResult == expectedQueryResult, "Expected \(expectedQueryResult) to equal \(actualResult)")
+        XCTAssertTrue(actualResult == expectedQueryResultFormat1 || actualResult == expectedQueryResultFormat2, "Expected \(expectedQueryResultFormat1) or \(expectedQueryResultFormat2) to equal \(actualResult)")
     }
     
     func testCompound_2(){
